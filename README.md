@@ -1,6 +1,5 @@
 # spark
-spark code
-UK Climate Historic Station Data Analysis using Apache Spark-2.4 and Scala.
+spark code for UK Climate Historic Station Data Analysis using Apache Spark-2.4 and Scala.
 
 Source URLS:  
 ============
