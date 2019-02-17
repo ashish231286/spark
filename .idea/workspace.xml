@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bbc3e9e-c9be-4bd9-a51d-34e33d9b8267" name="Default" comment="changing rank to dense_rank for case 2">
+    <list default="true" id="3bbc3e9e-c9be-4bd9-a51d-34e33d9b8267" name="Default" comment="using appendall instead of append when copying each content of file">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/module/src/WeatherAnalysis.scala" afterPath="$PROJECT_DIR$/module/src/WeatherAnalysis.scala" />
+      <change beforePath="$PROJECT_DIR$/module/src/WeatherAnalysisLog&amp;Outcome.txt" afterPath="$PROJECT_DIR$/module/src/WeatherAnalysisLog&amp;Outcome.txt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,8 +23,18 @@
       <file leaf-file-name="WeatherAnalysis.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysis.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WeatherAnalysisLog&amp;Outcome.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysisLog&amp;Outcome.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="886" column="0" lean-forward="true" selection-start-line="886" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -51,6 +63,7 @@
         <option value="$PROJECT_DIR$/module/src/WeatherAnalysis.scala" />
         <option value="$PROJECT_DIR$/module/src/WeatherAnalysis.scala" />
         <option value="$PROJECT_DIR$/module/src/WeatherAnalysis.scala" />
+        <option value="$PROJECT_DIR$/module/src/WeatherAnalysisLog&amp;Outcome.txt" />
       </list>
     </option>
   </component>
@@ -76,8 +89,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -90,19 +103,6 @@
               <item name="spark" type="b2602c69:ProjectViewProjectNode" />
               <item name="module" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="WeatherAnalysis.scala" type="6117b065:FileNode" />
-            </path>
-            <path>
-              <item name="spark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="module" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="WeatherAnalysis.scala" type="6117b065:FileNode" />
-              <item name="WeatherAnalysis$" type="ce8f04f3:TypeDefinitionNode" />
             </path>
           </expand>
           <select />
@@ -337,13 +337,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="changing rank to dense_rank for case 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing rank to dense_rank for case 2" />
+    <MESSAGE value="using appendall instead of append when copying each content of file" />
+    <option name="LAST_COMMIT_MESSAGE" value="using appendall instead of append when copying each content of file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysis.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -381,10 +390,18 @@
     <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysis_1.scala" />
     <entry file="file://$PROJECT_DIR$/module/src/WordCount.scala" />
     <entry file="file://$PROJECT_DIR$/module/src/Test_Spark_Row.scala" />
+    <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysisLog&amp;Outcome.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="886" column="0" lean-forward="true" selection-start-line="886" selection-start-column="0" selection-end-line="886" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module/src/WeatherAnalysis.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="37" column="9" lean-forward="true" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+        <state relative-caret-position="154">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
           <folding />
         </state>
       </provider>

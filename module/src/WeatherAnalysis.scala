@@ -39,7 +39,7 @@ object WeatherAnalysis extends App {
       }
       line = line_contents.readLine()
     }
-    line_contents.close
+    line_contents.close()
     file_with_line_contents_buf
   }
 
@@ -59,9 +59,11 @@ object WeatherAnalysis extends App {
   for (i <- station_list) {
     //val startTimeMillis = System.currentTimeMillis()
     try {
-      for (j <- read_file_from_url(i, base_url_string + i + "data.txt")) {
+      /*for (j <- read_file_from_url(i, base_url_string + i + "data.txt")) {
         station_data_list_Buf += j
-      }
+      }*/
+      //using append all operation instead of append
+      station_data_list_Buf.appendAll(read_file_from_url(i, base_url_string + i + "data.txt"))
       //val durationSeconds = (System.currentTimeMillis()-startTimeMillis)/1000
       //println(durationSeconds+" for "+i+" station")
     }
@@ -75,6 +77,8 @@ object WeatherAnalysis extends App {
 
   val station_data_list: List[String] = station_data_list_Buf.toList
   val durationSeconds = (System.currentTimeMillis() - startTimeMillis) / 1000
+  //clear contents of buffer
+  station_data_list_Buf.clear()
   println("Total Data Create time :" + durationSeconds+" secs. Total No of List Elements :" + station_data_list.length)
 
   //station_data_list_Buf.foreach(println)

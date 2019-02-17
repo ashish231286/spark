@@ -1,178 +1,178 @@
-"C:\Program Files\Java\jdk1.8.0_45\bin\java" -javaagent:D:\ideaIC-2017.3.2.win\lib\idea_rt.jar=50248:D:\ideaIC-2017.3.2.win\bin -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;D:\spark\out\production\module;C:\scala_2.11\lib\akka-actor_2.11-2.3.16.jar;C:\scala_2.11\lib\config-1.2.1.jar;C:\scala_2.11\lib\jline-2.14.3.jar;C:\scala_2.11\lib\scala-actors-2.11.0.jar;C:\scala_2.11\lib\scala-actors-migration_2.11-1.1.0.jar;C:\scala_2.11\lib\scala-compiler.jar;C:\scala_2.11\lib\scala-continuations-library_2.11-1.0.2.jar;C:\scala_2.11\lib\scala-continuations-plugin_2.11.12-1.0.2.jar;C:\scala_2.11\lib\scala-library.jar;C:\scala_2.11\lib\scala-parser-combinators_2.11-1.0.4.jar;C:\scala_2.11\lib\scala-reflect.jar;C:\scala_2.11\lib\scala-swing_2.11-1.0.2.jar;C:\scala_2.11\lib\scala-xml_2.11-1.0.5.jar;C:\scala_2.11\lib\scalap-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xz-1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jta-1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jpam-1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guice-3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\ivy-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\oro-2.0.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\ST4-4.0.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-1.8.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\core-1.1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\gson-2.2.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hppc-0.7.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snappy-0.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr-2.7.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jsp-api-2.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\okio-1.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\opencsv-2.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\py4j-0.10.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xmlenc-0.52.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guava-14.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\janino-3.0.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jetty-6.1.26.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jline-2.14.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jsr305-1.3.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\log4j-1.2.17.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\minlog-1.3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\okhttp-3.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stream-2.7.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\generex-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jdo-api-3.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\paranamer-2.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\pyrolite-4.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-ipc-1.8.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-io-2.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\JavaEWAH-0.3.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.inject-1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jaxb-api-2.2.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\libfb303-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\lz4-java-1.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snakeyaml-1.15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stax-api-1.0-2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stax-api-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aopalliance-1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-cli-1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-net-3.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\derby-10.12.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\httpcore-4.4.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\joda-time-2.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jodd-core-3.5.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\libthrift-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\objenesis-2.5.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-shims-1.5.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\super-csv-2.2.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zookeeper-3.4.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\activation-1.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\automaton-1.11-8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\chill-java-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\chill_2.11-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-dbcp-1.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-lang-2.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\httpclient-4.5.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javolution-5.5.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\slf4j-api-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xercesImpl-2.9.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zjsonpatch-0.3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zstd-jni-1.3.2-2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr-runtime-3.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-lang3-3.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guice-servlet-3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-auth-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-hdfs-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-api-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-xc-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jetty-util-6.1.26.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jtransforms-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kryo-shaded-4.0.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-jvm-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\netty-3.9.9.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spire_2.11-0.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aircompressor-0.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr4-runtime-4.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\api-util-1.0.0-M20.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\breeze_2.11-0.13.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-codec-1.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-pool-1.5.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\compress-lzf-1.0.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-core-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\leveldbjni-all-1.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-core-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-json-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-format-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-memory-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-vector-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-math3-3.4.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-client-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-utils-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javassist-3.18.1-GA.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-guava-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jul-to-slf4j-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\protobuf-java-2.5.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snappy-java-1.1.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\bonecp-0.8.0.RELEASE.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-crypto-1.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-digester-1.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-client-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-jaxrs-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-client-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-common-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-server-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\machinist_2.11-0.6.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-format-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\RoaringBitmap-0.5.11.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-xml_2.11-1.0.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\shapeless_2.11-2.3.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\slf4j-log4j12-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-sql_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stringtemplate-3.2.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-logging-1.1.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-recipes-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-api-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-cli-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-locator-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.ws.rs-api-2.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jcl-over-slf4j-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-ast_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-core-1.5.2-nohive.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-column-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-common-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-hadoop-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-library-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-reflect-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-core_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-hive_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-repl_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-tags_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-yarn_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xbean-asm6-shaded-4.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\api-asn1-api-1.0.0-M20.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-compiler-3.0.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-compress-1.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-httpclient-3.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-exec-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-jdbc-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.inject-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-core_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kubernetes-model-2.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-graphite-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\netty-all-4.1.17.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-jackson-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-compiler-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mesos_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mllib_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apacheds-i18n-2.0.0-M15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arpack_combined_all-0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-beanutils-1.7.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-framework-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-core-3.2.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-rdbms-3.2.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-core-asl-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.servlet-api-3.1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kubernetes-client-3.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\macro-compat_2.11-1.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-encoding-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-graphx_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-sketch_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-unsafe_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\univocity-parsers-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-annotations-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-client-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-databind-2.6.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.annotation-api-1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-media-jaxb-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-scalap_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-kvstore_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spire-macros_2.11-0.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-mapred-1.8.2-hadoop2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\breeze-macros_2.11-0.13.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-collections-3.2.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-configuration-1.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-api-jdo-3.2.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-beeline-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-annotations-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-mapper-asl-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-jackson_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\logging-interceptor-3.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-catalyst_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-launcher_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apache-log4j-extras-1.2.17.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\eigenbase-properties-1.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\flatbuffers-1.2.0-3f79e055.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-mapreduce-1.5.2-nohive.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-streaming_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\validation-api-1.1.0.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-metastore-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\mesos-1.4.0-shaded-protobuf.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\osgi-resource-locator-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-hadoop-bundle-1.6.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-kubernetes_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-tags_2.11-2.4.0-tests.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-beanutils-core-1.8.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\htrace-core-3.1.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mllib-local_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-core-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-dataformat-yaml-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-paranamer-2.7.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-linq4j-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-server-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-container-servlet-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-network-common_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aopalliance-repackaged-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-avatica-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-network-shuffle_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apacheds-kerberos-codec-2.0.0-M15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-app-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-scala_2.11-2.6.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-core-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-server-web-proxy-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-hive-thriftserver_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-parser-combinators_2.11-1.1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-container-servlet-core-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-shuffle-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-jaxb-annotations-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-jobclient-2.7.3.jar" WeatherAnalysis
-Total Data Create time :6 secs. Total No of List Elements :37189
-2019-02-17 13:41:55 INFO  SparkContext:54 - Running Spark version 2.4.0
-2019-02-17 13:41:56 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
-2019-02-17 13:41:57 INFO  SparkContext:54 - Submitted application: UK Historical Weather Data Analysis
-2019-02-17 13:41:57 INFO  SecurityManager:54 - Changing view acls to: Admin
-2019-02-17 13:41:57 INFO  SecurityManager:54 - Changing modify acls to: Admin
-2019-02-17 13:41:57 INFO  SecurityManager:54 - Changing view acls groups to: 
-2019-02-17 13:41:57 INFO  SecurityManager:54 - Changing modify acls groups to: 
-2019-02-17 13:41:57 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Admin); groups with view permissions: Set(); users  with modify permissions: Set(Admin); groups with modify permissions: Set()
-2019-02-17 13:41:58 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 50270.
-2019-02-17 13:41:58 INFO  SparkEnv:54 - Registering MapOutputTracker
-2019-02-17 13:41:58 INFO  SparkEnv:54 - Registering BlockManagerMaster
-2019-02-17 13:41:58 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
-2019-02-17 13:41:58 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
-2019-02-17 13:41:58 INFO  DiskBlockManager:54 - Created local directory at C:\Users\Admin\AppData\Local\Temp\blockmgr-b99ae8ce-22ef-47d7-adec-4b7267f17881
-2019-02-17 13:41:58 INFO  MemoryStore:54 - MemoryStore started with capacity 885.6 MB
-2019-02-17 13:41:58 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
-2019-02-17 13:41:58 INFO  log:192 - Logging initialized @11067ms
-2019-02-17 13:41:59 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
-2019-02-17 13:41:59 INFO  Server:419 - Started @11234ms
-2019-02-17 13:41:59 INFO  AbstractConnector:278 - Started ServerConnector@1051c2dc{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-02-17 13:41:59 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51abf713{/jobs,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@74a9c4b0{/jobs/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@85ec632{/jobs/job,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65ef722a{/jobs/job/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5fd9b663{/stages,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@214894fc{/stages/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10567255{/stages/stage,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79c4715d{/stages/stage/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5aa360ea{/stages/pool,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6548bb7d{/stages/pool/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@e27ba81{/storage,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54336c81{/storage/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1556f2dd{/storage/rdd,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35e52059{/storage/rdd/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62577d6{/environment,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49bd54f7{/environment/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b5f8707{/executors,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@772485dd{/executors/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5a12c728{/executors/threadDump,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79ab3a71{/executors/threadDump/json,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e5bfdfc{/static,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@39fc6b2c{/,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@704b2127{/api,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e27d72f{/jobs/job/kill,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c0b41d6{/stages/stage/kill,null,AVAILABLE,@Spark}
-2019-02-17 13:41:59 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://Admin-PC:4040
-2019-02-17 13:41:59 INFO  Executor:54 - Starting executor ID driver on host localhost
-2019-02-17 13:41:59 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 50291.
-2019-02-17 13:41:59 INFO  NettyBlockTransferService:54 - Server created on Admin-PC:50291
-2019-02-17 13:41:59 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
-2019-02-17 13:41:59 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, Admin-PC, 50291, None)
-2019-02-17 13:41:59 INFO  BlockManagerMasterEndpoint:54 - Registering block manager Admin-PC:50291 with 885.6 MB RAM, BlockManagerId(driver, Admin-PC, 50291, None)
-2019-02-17 13:41:59 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, Admin-PC, 50291, None)
-2019-02-17 13:41:59 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, Admin-PC, 50291, None)
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@153f66e7{/metrics/json,null,AVAILABLE,@Spark}
-2019-02-17 13:42:00 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/D:/spark/spark/spark-warehouse/').
-2019-02-17 13:42:00 INFO  SharedState:54 - Warehouse path is 'file:/D:/spark/spark/spark-warehouse/'.
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b8a7e43{/SQL,null,AVAILABLE,@Spark}
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35835fa{/SQL/json,null,AVAILABLE,@Spark}
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6892cc6f{/SQL/execution,null,AVAILABLE,@Spark}
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6fd1660{/SQL/execution/json,null,AVAILABLE,@Spark}
-2019-02-17 13:42:00 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64aad6db{/static/sql,null,AVAILABLE,@Spark}
-2019-02-17 13:42:02 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
-2019-02-17 13:42:10 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
-2019-02-17 13:42:11 INFO  CodeGenerator:54 - Code generated in 444.720605 ms
-2019-02-17 13:42:11 INFO  CodeGenerator:54 - Code generated in 46.708961 ms
-2019-02-17 13:42:11 INFO  CodeGenerator:54 - Code generated in 50.678968 ms
-2019-02-17 13:42:11 INFO  CodeGenerator:54 - Code generated in 66.957541 ms
-2019-02-17 13:42:12 INFO  CodeGenerator:54 - Code generated in 101.324876 ms
-2019-02-17 13:42:12 INFO  CodeGenerator:54 - Code generated in 17.298475 ms
-2019-02-17 13:42:12 INFO  ContextCleaner:54 - Cleaned accumulator 0
-2019-02-17 13:42:12 INFO  ContextCleaner:54 - Cleaned accumulator 1
-2019-02-17 13:42:12 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:105
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Registering RDD 3 (show at WeatherAnalysis.scala:105)
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Registering RDD 6 (show at WeatherAnalysis.scala:105)
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Got job 0 (show at WeatherAnalysis.scala:105) with 1 output partitions
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (show at WeatherAnalysis.scala:105)
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 1)
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 1)
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at show at WeatherAnalysis.scala:105), which has no missing parents
-2019-02-17 13:42:13 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 20.4 KB, free 885.6 MB)
-2019-02-17 13:42:13 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 9.5 KB, free 885.6 MB)
-2019-02-17 13:42:13 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on Admin-PC:50291 (size: 9.5 KB, free: 885.6 MB)
-2019-02-17 13:42:13 INFO  SparkContext:54 - Created broadcast 0 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:13 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at show at WeatherAnalysis.scala:105) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:13 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 4 tasks
-2019-02-17 13:42:13 WARN  TaskSetManager:66 - Stage 0 contains a task of very large size (407 KB). The maximum recommended task size is 100 KB.
-2019-02-17 13:42:13 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 417265 bytes)
-2019-02-17 13:42:13 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 415537 bytes)
-2019-02-17 13:42:13 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 420729 bytes)
-2019-02-17 13:42:13 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, localhost, executor driver, partition 3, PROCESS_LOCAL, 440882 bytes)
-2019-02-17 13:42:13 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
-2019-02-17 13:42:13 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
-2019-02-17 13:42:13 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
-2019-02-17 13:42:13 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
-2019-02-17 13:42:14 INFO  CodeGenerator:54 - Code generated in 29.684936 ms
-2019-02-17 13:42:14 INFO  CodeGenerator:54 - Code generated in 57.042937 ms
-2019-02-17 13:42:14 INFO  CodeGenerator:54 - Code generated in 23.371689 ms
-2019-02-17 13:42:14 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1867 bytes result sent to driver
-2019-02-17 13:42:14 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1824 bytes result sent to driver
-2019-02-17 13:42:14 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1824 bytes result sent to driver
-2019-02-17 13:42:14 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1824 bytes result sent to driver
-2019-02-17 13:42:14 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 1368 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:14 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 1287 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:14 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 1305 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 1271 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - ShuffleMapStage 0 (show at WeatherAnalysis.scala:105) finished in 1.887 s
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 1, ResultStage 2)
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at show at WeatherAnalysis.scala:105), which has no missing parents
-2019-02-17 13:42:15 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 18.1 KB, free 885.6 MB)
-2019-02-17 13:42:15 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 8.5 KB, free 885.5 MB)
-2019-02-17 13:42:15 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on Admin-PC:50291 (size: 8.5 KB, free: 885.6 MB)
-2019-02-17 13:42:15 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at show at WeatherAnalysis.scala:105) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:15 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 4 tasks
-2019-02-17 13:42:15 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 4, localhost, executor driver, partition 0, ANY, 7756 bytes)
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 5, localhost, executor driver, partition 1, ANY, 7756 bytes)
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 6, localhost, executor driver, partition 2, ANY, 7756 bytes)
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 7, localhost, executor driver, partition 3, ANY, 7756 bytes)
-2019-02-17 13:42:15 INFO  Executor:54 - Running task 3.0 in stage 1.0 (TID 7)
-2019-02-17 13:42:15 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 6)
-2019-02-17 13:42:15 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 5)
-2019-02-17 13:42:15 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 4)
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 23 ms
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 55 ms
-2019-02-17 13:42:15 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 5). 2736 bytes result sent to driver
-2019-02-17 13:42:15 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 6). 2693 bytes result sent to driver
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 5) in 180 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:15 INFO  Executor:54 - Finished task 3.0 in stage 1.0 (TID 7). 2693 bytes result sent to driver
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 6) in 187 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 7) in 187 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:15 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 4). 2736 bytes result sent to driver
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 4) in 229 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:15 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - ShuffleMapStage 1 (show at WeatherAnalysis.scala:105) finished in 0.285 s
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - waiting: Set(ResultStage 2)
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[12] at show at WeatherAnalysis.scala:105), which has no missing parents
-2019-02-17 13:42:15 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 23.3 KB, free 885.5 MB)
-2019-02-17 13:42:15 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 10.2 KB, free 885.5 MB)
-2019-02-17 13:42:15 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on Admin-PC:50291 (size: 10.2 KB, free: 885.6 MB)
-2019-02-17 13:42:15 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:15 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[12] at show at WeatherAnalysis.scala:105) (first 15 tasks are for partitions Vector(0))
-2019-02-17 13:42:15 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 1 tasks
-2019-02-17 13:42:15 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 8, localhost, executor driver, partition 0, ANY, 7767 bytes)
-2019-02-17 13:42:15 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 8)
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:15 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 72.440645 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 102.133279 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 24.21089 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 13.843398 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 19.110476 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 22.338654 ms
-2019-02-17 13:42:15 INFO  CodeGenerator:54 - Code generated in 17.125018 ms
-2019-02-17 13:42:15 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 8). 4047 bytes result sent to driver
-2019-02-17 13:42:16 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 8) in 652 ms on localhost (executor driver) (1/1)
-2019-02-17 13:42:16 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:16 INFO  DAGScheduler:54 - ResultStage 2 (show at WeatherAnalysis.scala:105) finished in 0.680 s
-2019-02-17 13:42:16 INFO  DAGScheduler:54 - Job 0 finished: show at WeatherAnalysis.scala:105, took 3.092685 s
+"C:\Program Files\Java\jdk1.8.0_45\bin\java" -javaagent:D:\ideaIC-2017.3.2.win\lib\idea_rt.jar=49856:D:\ideaIC-2017.3.2.win\bin -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_45\jre\lib\rt.jar;D:\spark_github_1\spark\out\production\module;C:\scala_2.11\lib\akka-actor_2.11-2.3.16.jar;C:\scala_2.11\lib\config-1.2.1.jar;C:\scala_2.11\lib\jline-2.14.3.jar;C:\scala_2.11\lib\scala-actors-2.11.0.jar;C:\scala_2.11\lib\scala-actors-migration_2.11-1.1.0.jar;C:\scala_2.11\lib\scala-compiler.jar;C:\scala_2.11\lib\scala-continuations-library_2.11-1.0.2.jar;C:\scala_2.11\lib\scala-continuations-plugin_2.11.12-1.0.2.jar;C:\scala_2.11\lib\scala-library.jar;C:\scala_2.11\lib\scala-parser-combinators_2.11-1.0.4.jar;C:\scala_2.11\lib\scala-reflect.jar;C:\scala_2.11\lib\scala-swing_2.11-1.0.2.jar;C:\scala_2.11\lib\scala-xml_2.11-1.0.5.jar;C:\scala_2.11\lib\scalap-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xz-1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jta-1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jpam-1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guice-3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\ivy-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\oro-2.0.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\ST4-4.0.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-1.8.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\core-1.1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\gson-2.2.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hppc-0.7.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snappy-0.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr-2.7.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jsp-api-2.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\okio-1.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\opencsv-2.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\py4j-0.10.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xmlenc-0.52.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guava-14.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\janino-3.0.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jetty-6.1.26.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jline-2.14.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jsr305-1.3.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\log4j-1.2.17.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\minlog-1.3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\okhttp-3.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stream-2.7.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\generex-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jdo-api-3.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\paranamer-2.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\pyrolite-4.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-ipc-1.8.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-io-2.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\JavaEWAH-0.3.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.inject-1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jaxb-api-2.2.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\libfb303-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\lz4-java-1.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snakeyaml-1.15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stax-api-1.0-2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stax-api-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aopalliance-1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-cli-1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-net-3.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\derby-10.12.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\httpcore-4.4.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\joda-time-2.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jodd-core-3.5.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\libthrift-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\objenesis-2.5.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-shims-1.5.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\super-csv-2.2.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zookeeper-3.4.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\activation-1.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\automaton-1.11-8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\chill-java-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\chill_2.11-0.9.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-dbcp-1.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-lang-2.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\httpclient-4.5.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javolution-5.5.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\slf4j-api-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xercesImpl-2.9.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zjsonpatch-0.3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\zstd-jni-1.3.2-2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr-runtime-3.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-lang3-3.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\guice-servlet-3.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-auth-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-hdfs-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-api-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-xc-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jetty-util-6.1.26.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jtransforms-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kryo-shaded-4.0.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-jvm-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\netty-3.9.9.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spire_2.11-0.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aircompressor-0.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\antlr4-runtime-4.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\api-util-1.0.0-M20.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\breeze_2.11-0.13.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-codec-1.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-pool-1.5.4.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\compress-lzf-1.0.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-core-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\leveldbjni-all-1.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-core-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-json-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-format-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-memory-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arrow-vector-0.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-math3-3.4.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-client-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-utils-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javassist-3.18.1-GA.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-guava-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jul-to-slf4j-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\protobuf-java-2.5.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\snappy-java-1.1.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\bonecp-0.8.0.RELEASE.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-crypto-1.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-digester-1.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-client-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-jaxrs-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-client-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-common-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-server-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\machinist_2.11-0.6.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-format-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\RoaringBitmap-0.5.11.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-xml_2.11-1.0.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\shapeless_2.11-2.3.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\slf4j-log4j12-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-sql_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\stringtemplate-3.2.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-logging-1.1.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-recipes-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-api-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-cli-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hk2-locator-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.ws.rs-api-2.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jcl-over-slf4j-1.7.16.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-ast_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-core-1.5.2-nohive.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-column-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-common-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-hadoop-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-library-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-reflect-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-core_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-hive_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-repl_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-tags_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-yarn_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\xbean-asm6-shaded-4.8.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\api-asn1-api-1.0.0-M20.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-compiler-3.0.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-compress-1.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-httpclient-3.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-exec-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-jdbc-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.inject-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-core_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kubernetes-model-2.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\metrics-graphite-3.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\netty-all-4.1.17.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-jackson-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-compiler-2.11.12.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mesos_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mllib_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apacheds-i18n-2.0.0-M15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\arpack_combined_all-0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-beanutils-1.7.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\curator-framework-2.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-core-3.2.10.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-rdbms-3.2.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-core-asl-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.servlet-api-3.1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\kubernetes-client-3.0.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\macro-compat_2.11-1.1.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-encoding-1.10.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-graphx_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-sketch_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-unsafe_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\univocity-parsers-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-annotations-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-client-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-databind-2.6.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\javax.annotation-api-1.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-media-jaxb-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-scalap_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-kvstore_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spire-macros_2.11-0.13.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\avro-mapred-1.8.2-hadoop2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\breeze-macros_2.11-0.13.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-collections-3.2.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-configuration-1.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\datanucleus-api-jdo-3.2.6.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-beeline-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-annotations-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-mapper-asl-1.9.13.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\json4s-jackson_2.11-3.5.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\logging-interceptor-3.8.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-catalyst_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-launcher_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apache-log4j-extras-1.2.17.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\eigenbase-properties-1.1.5.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\flatbuffers-1.2.0-3f79e055.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\orc-mapreduce-1.5.2-nohive.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-streaming_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\validation-api-1.1.0.Final.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hive-metastore-1.2.1.spark2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\mesos-1.4.0-shaded-protobuf.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\osgi-resource-locator-1.0.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\parquet-hadoop-bundle-1.6.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-kubernetes_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-tags_2.11-2.4.0-tests.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\commons-beanutils-core-1.8.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\htrace-core-3.1.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-mllib-local_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-core-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-dataformat-yaml-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-paranamer-2.7.9.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-linq4j-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-server-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-container-servlet-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-network-common_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\aopalliance-repackaged-2.4.0-b34.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\calcite-avatica-1.2.0-incubating.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-network-shuffle_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\apacheds-kerberos-codec-2.0.0-M15.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-app-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-scala_2.11-2.6.7.1.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-core-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-yarn-server-web-proxy-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\spark-hive-thriftserver_2.11-2.4.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\scala-parser-combinators_2.11-1.1.0.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-common-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jersey-container-servlet-core-2.22.2.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-shuffle-2.7.3.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\jackson-module-jaxb-annotations-2.6.7.jar;C:\spark\spark-2.4.0-bin-hadoop2.7\jars\hadoop-mapreduce-client-jobclient-2.7.3.jar" WeatherAnalysis
+Total Data Create time :7 secs. Total No of List Elements :37189
+2019-02-17 22:55:25 INFO  SparkContext:54 - Running Spark version 2.4.0
+2019-02-17 22:55:26 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2019-02-17 22:55:26 INFO  SparkContext:54 - Submitted application: UK Historical Weather Data Analysis
+2019-02-17 22:55:26 INFO  SecurityManager:54 - Changing view acls to: Admin
+2019-02-17 22:55:26 INFO  SecurityManager:54 - Changing modify acls to: Admin
+2019-02-17 22:55:26 INFO  SecurityManager:54 - Changing view acls groups to:
+2019-02-17 22:55:26 INFO  SecurityManager:54 - Changing modify acls groups to:
+2019-02-17 22:55:26 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(Admin); groups with view permissions: Set(); users  with modify permissions: Set(Admin); groups with modify permissions: Set()
+2019-02-17 22:55:28 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 49880.
+2019-02-17 22:55:28 INFO  SparkEnv:54 - Registering MapOutputTracker
+2019-02-17 22:55:28 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2019-02-17 22:55:28 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2019-02-17 22:55:28 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2019-02-17 22:55:28 INFO  DiskBlockManager:54 - Created local directory at C:\Users\Admin\AppData\Local\Temp\blockmgr-f4b26570-72c1-4c1d-8f98-6153f263e380
+2019-02-17 22:55:28 INFO  MemoryStore:54 - MemoryStore started with capacity 885.6 MB
+2019-02-17 22:55:28 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2019-02-17 22:55:28 INFO  log:192 - Logging initialized @14174ms
+2019-02-17 22:55:28 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2019-02-17 22:55:28 INFO  Server:419 - Started @14402ms
+2019-02-17 22:55:28 INFO  AbstractConnector:278 - Started ServerConnector@3661c77b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-02-17 22:55:28 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51abf713{/jobs,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@74a9c4b0{/jobs/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@85ec632{/jobs/job,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@65ef722a{/jobs/job/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5fd9b663{/stages,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@214894fc{/stages/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@10567255{/stages/stage,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79c4715d{/stages/stage/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5aa360ea{/stages/pool,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6548bb7d{/stages/pool/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@e27ba81{/storage,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@54336c81{/storage/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1556f2dd{/storage/rdd,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35e52059{/storage/rdd/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@62577d6{/environment,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@49bd54f7{/environment/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b5f8707{/executors,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@772485dd{/executors/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5a12c728{/executors/threadDump,null,AVAILABLE,@Spark}
+2019-02-17 22:55:28 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79ab3a71{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6e5bfdfc{/static,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@39fc6b2c{/,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@704b2127{/api,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2e27d72f{/jobs/job/kill,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@c0b41d6{/stages/stage/kill,null,AVAILABLE,@Spark}
+2019-02-17 22:55:29 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://Admin-PC:4040
+2019-02-17 22:55:29 INFO  Executor:54 - Starting executor ID driver on host localhost
+2019-02-17 22:55:29 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 49901.
+2019-02-17 22:55:29 INFO  NettyBlockTransferService:54 - Server created on Admin-PC:49901
+2019-02-17 22:55:29 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2019-02-17 22:55:29 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, Admin-PC, 49901, None)
+2019-02-17 22:55:29 INFO  BlockManagerMasterEndpoint:54 - Registering block manager Admin-PC:49901 with 885.6 MB RAM, BlockManagerId(driver, Admin-PC, 49901, None)
+2019-02-17 22:55:29 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, Admin-PC, 49901, None)
+2019-02-17 22:55:29 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, Admin-PC, 49901, None)
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@153f66e7{/metrics/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:30 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/D:/spark_github_1/spark/spark-warehouse').
+2019-02-17 22:55:30 INFO  SharedState:54 - Warehouse path is 'file:/D:/spark_github_1/spark/spark-warehouse'.
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@b8a7e43{/SQL,null,AVAILABLE,@Spark}
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35835fa{/SQL/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6892cc6f{/SQL/execution,null,AVAILABLE,@Spark}
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6fd1660{/SQL/execution/json,null,AVAILABLE,@Spark}
+2019-02-17 22:55:30 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64aad6db{/static/sql,null,AVAILABLE,@Spark}
+2019-02-17 22:55:32 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+2019-02-17 22:55:40 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+2019-02-17 22:55:41 INFO  CodeGenerator:54 - Code generated in 490.222212 ms
+2019-02-17 22:55:41 INFO  CodeGenerator:54 - Code generated in 49.604948 ms
+2019-02-17 22:55:41 INFO  CodeGenerator:54 - Code generated in 97.853506 ms
+2019-02-17 22:55:42 INFO  CodeGenerator:54 - Code generated in 99.670481 ms
+2019-02-17 22:55:42 INFO  CodeGenerator:54 - Code generated in 299.964313 ms
+2019-02-17 22:55:42 INFO  CodeGenerator:54 - Code generated in 27.913115 ms
+2019-02-17 22:55:43 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:109
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Registering RDD 3 (show at WeatherAnalysis.scala:109)
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Registering RDD 6 (show at WeatherAnalysis.scala:109)
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Got job 0 (show at WeatherAnalysis.scala:109) with 1 output partitions
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Final stage: ResultStage 2 (show at WeatherAnalysis.scala:109)
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 1)
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 1)
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 0 (MapPartitionsRDD[3] at show at WeatherAnalysis.scala:109), which has no missing parents
+2019-02-17 22:55:43 INFO  ContextCleaner:54 - Cleaned accumulator 0
+2019-02-17 22:55:43 INFO  ContextCleaner:54 - Cleaned accumulator 1
+2019-02-17 22:55:43 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 20.4 KB, free 885.6 MB)
+2019-02-17 22:55:43 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 9.5 KB, free 885.6 MB)
+2019-02-17 22:55:43 INFO  BlockManagerInfo:54 - Added broadcast_0_piece0 in memory on Admin-PC:49901 (size: 9.5 KB, free: 885.6 MB)
+2019-02-17 22:55:43 INFO  SparkContext:54 - Created broadcast 0 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:43 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 0 (MapPartitionsRDD[3] at show at WeatherAnalysis.scala:109) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:43 INFO  TaskSchedulerImpl:54 - Adding task set 0.0 with 4 tasks
+2019-02-17 22:55:44 WARN  TaskSetManager:66 - Stage 0 contains a task of very large size (407 KB). The maximum recommended task size is 100 KB.
+2019-02-17 22:55:44 INFO  TaskSetManager:54 - Starting task 0.0 in stage 0.0 (TID 0, localhost, executor driver, partition 0, PROCESS_LOCAL, 417265 bytes)
+2019-02-17 22:55:44 INFO  TaskSetManager:54 - Starting task 1.0 in stage 0.0 (TID 1, localhost, executor driver, partition 1, PROCESS_LOCAL, 415537 bytes)
+2019-02-17 22:55:44 INFO  TaskSetManager:54 - Starting task 2.0 in stage 0.0 (TID 2, localhost, executor driver, partition 2, PROCESS_LOCAL, 420729 bytes)
+2019-02-17 22:55:44 INFO  TaskSetManager:54 - Starting task 3.0 in stage 0.0 (TID 3, localhost, executor driver, partition 3, PROCESS_LOCAL, 440882 bytes)
+2019-02-17 22:55:44 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2019-02-17 22:55:44 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2019-02-17 22:55:44 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2019-02-17 22:55:44 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
+2019-02-17 22:55:44 INFO  CodeGenerator:54 - Code generated in 19.248519 ms
+2019-02-17 22:55:44 INFO  CodeGenerator:54 - Code generated in 26.217513 ms
+2019-02-17 22:55:44 INFO  CodeGenerator:54 - Code generated in 68.877923 ms
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 1824 bytes result sent to driver
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 1824 bytes result sent to driver
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 1824 bytes result sent to driver
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 1824 bytes result sent to driver
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 0.0 in stage 0.0 (TID 0) in 1357 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 3.0 in stage 0.0 (TID 3) in 1263 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 2.0 in stage 0.0 (TID 2) in 1294 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 1.0 in stage 0.0 (TID 1) in 1325 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - ShuffleMapStage 0 (show at WeatherAnalysis.scala:109) finished in 1.930 s
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 1, ResultStage 2)
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 1 (MapPartitionsRDD[6] at show at WeatherAnalysis.scala:109), which has no missing parents
+2019-02-17 22:55:45 INFO  MemoryStore:54 - Block broadcast_1 stored as values in memory (estimated size 18.1 KB, free 885.6 MB)
+2019-02-17 22:55:45 INFO  MemoryStore:54 - Block broadcast_1_piece0 stored as bytes in memory (estimated size 8.5 KB, free 885.5 MB)
+2019-02-17 22:55:45 INFO  BlockManagerInfo:54 - Added broadcast_1_piece0 in memory on Admin-PC:49901 (size: 8.5 KB, free: 885.6 MB)
+2019-02-17 22:55:45 INFO  SparkContext:54 - Created broadcast 1 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 1 (MapPartitionsRDD[6] at show at WeatherAnalysis.scala:109) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:45 INFO  TaskSchedulerImpl:54 - Adding task set 1.0 with 4 tasks
+2019-02-17 22:55:45 INFO  TaskSchedulerImpl:54 - Removed TaskSet 0.0, whose tasks have all completed, from pool
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Starting task 0.0 in stage 1.0 (TID 4, localhost, executor driver, partition 0, ANY, 7756 bytes)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Starting task 1.0 in stage 1.0 (TID 5, localhost, executor driver, partition 1, ANY, 7756 bytes)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Starting task 2.0 in stage 1.0 (TID 6, localhost, executor driver, partition 2, ANY, 7756 bytes)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Starting task 3.0 in stage 1.0 (TID 7, localhost, executor driver, partition 3, ANY, 7756 bytes)
+2019-02-17 22:55:45 INFO  Executor:54 - Running task 1.0 in stage 1.0 (TID 5)
+2019-02-17 22:55:45 INFO  Executor:54 - Running task 2.0 in stage 1.0 (TID 6)
+2019-02-17 22:55:45 INFO  Executor:54 - Running task 3.0 in stage 1.0 (TID 7)
+2019-02-17 22:55:45 INFO  Executor:54 - Running task 0.0 in stage 1.0 (TID 4)
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 31 ms
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 62 ms
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 47 ms
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 2.0 in stage 1.0 (TID 6). 2736 bytes result sent to driver
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 2.0 in stage 1.0 (TID 6) in 187 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 0.0 in stage 1.0 (TID 4). 2693 bytes result sent to driver
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 3.0 in stage 1.0 (TID 7). 2693 bytes result sent to driver
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 0.0 in stage 1.0 (TID 4) in 218 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 3.0 in stage 1.0 (TID 7) in 218 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:45 INFO  Executor:54 - Finished task 1.0 in stage 1.0 (TID 5). 2693 bytes result sent to driver
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Finished task 1.0 in stage 1.0 (TID 5) in 234 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:45 INFO  TaskSchedulerImpl:54 - Removed TaskSet 1.0, whose tasks have all completed, from pool
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - ShuffleMapStage 1 (show at WeatherAnalysis.scala:109) finished in 0.271 s
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - waiting: Set(ResultStage 2)
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - Submitting ResultStage 2 (MapPartitionsRDD[12] at show at WeatherAnalysis.scala:109), which has no missing parents
+2019-02-17 22:55:45 INFO  MemoryStore:54 - Block broadcast_2 stored as values in memory (estimated size 23.3 KB, free 885.5 MB)
+2019-02-17 22:55:45 INFO  MemoryStore:54 - Block broadcast_2_piece0 stored as bytes in memory (estimated size 10.2 KB, free 885.5 MB)
+2019-02-17 22:55:45 INFO  BlockManagerInfo:54 - Added broadcast_2_piece0 in memory on Admin-PC:49901 (size: 10.2 KB, free: 885.6 MB)
+2019-02-17 22:55:45 INFO  SparkContext:54 - Created broadcast 2 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:45 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[12] at show at WeatherAnalysis.scala:109) (first 15 tasks are for partitions Vector(0))
+2019-02-17 22:55:45 INFO  TaskSchedulerImpl:54 - Adding task set 2.0 with 1 tasks
+2019-02-17 22:55:45 INFO  TaskSetManager:54 - Starting task 0.0 in stage 2.0 (TID 8, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-02-17 22:55:45 INFO  Executor:54 - Running task 0.0 in stage 2.0 (TID 8)
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:45 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-02-17 22:55:45 INFO  CodeGenerator:54 - Code generated in 37.82088 ms
+2019-02-17 22:55:45 INFO  CodeGenerator:54 - Code generated in 38.843948 ms
+2019-02-17 22:55:46 INFO  CodeGenerator:54 - Code generated in 90.577003 ms
+2019-02-17 22:55:46 INFO  CodeGenerator:54 - Code generated in 32.834617 ms
+2019-02-17 22:55:46 INFO  CodeGenerator:54 - Code generated in 11.701643 ms
+2019-02-17 22:55:46 INFO  CodeGenerator:54 - Code generated in 16.121348 ms
+2019-02-17 22:55:46 INFO  CodeGenerator:54 - Code generated in 24.058158 ms
+2019-02-17 22:55:46 INFO  Executor:54 - Finished task 0.0 in stage 2.0 (TID 8). 4090 bytes result sent to driver
+2019-02-17 22:55:46 INFO  TaskSetManager:54 - Finished task 0.0 in stage 2.0 (TID 8) in 477 ms on localhost (executor driver) (1/1)
+2019-02-17 22:55:46 INFO  TaskSchedulerImpl:54 - Removed TaskSet 2.0, whose tasks have all completed, from pool
+2019-02-17 22:55:46 INFO  DAGScheduler:54 - ResultStage 2 (show at WeatherAnalysis.scala:109) finished in 0.510 s
+2019-02-17 22:55:46 INFO  DAGScheduler:54 - Job 0 finished: show at WeatherAnalysis.scala:109, took 2.963565 s
 +---------------+----+----+
 |   station_name| cnt|rank|
 +---------------+----+----+
@@ -215,198 +215,115 @@ Total Data Create time :6 secs. Total No of List Elements :37189
 |       camborne| 485|  28|
 +---------------+----+----+
 
-2019-02-17 13:42:16 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
-2019-02-17 13:42:16 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 36.951508 ms
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 23.960895 ms
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 41.804194 ms
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 81.550921 ms
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 67.140054 ms
-2019-02-17 13:42:17 INFO  CodeGenerator:54 - Code generated in 13.717496 ms
-2019-02-17 13:42:17 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:110
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Registering RDD 16 (show at WeatherAnalysis.scala:110)
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Registering RDD 19 (show at WeatherAnalysis.scala:110)
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Got job 1 (show at WeatherAnalysis.scala:110) with 1 output partitions
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (show at WeatherAnalysis.scala:110)
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 4)
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 4)
-2019-02-17 13:42:17 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 3 (MapPartitionsRDD[16] at show at WeatherAnalysis.scala:110), which has no missing parents
-2019-02-17 13:42:17 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 25.0 KB, free 885.5 MB)
-2019-02-17 13:42:17 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.5 MB)
-2019-02-17 13:42:17 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on Admin-PC:50291 (size: 11.1 KB, free: 885.6 MB)
-2019-02-17 13:42:17 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[16] at show at WeatherAnalysis.scala:110) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:18 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 4 tasks
-2019-02-17 13:42:18 WARN  TaskSetManager:66 - Stage 3 contains a task of very large size (552 KB). The maximum recommended task size is 100 KB.
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 9, localhost, executor driver, partition 0, PROCESS_LOCAL, 566017 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 10, localhost, executor driver, partition 1, PROCESS_LOCAL, 564289 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 2.0 in stage 3.0 (TID 11, localhost, executor driver, partition 2, PROCESS_LOCAL, 569481 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 3.0 in stage 3.0 (TID 12, localhost, executor driver, partition 3, PROCESS_LOCAL, 589650 bytes)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 10)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 11)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 3.0 in stage 3.0 (TID 12)
-2019-02-17 13:42:18 INFO  ContextCleaner:54 - Cleaned accumulator 26
-2019-02-17 13:42:18 INFO  ContextCleaner:54 - Cleaned accumulator 30
-2019-02-17 13:42:18 INFO  ContextCleaner:54 - Cleaned accumulator 35
-2019-02-17 13:42:18 INFO  ContextCleaner:54 - Cleaned accumulator 62
-2019-02-17 13:42:18 INFO  ContextCleaner:54 - Cleaned accumulator 72
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 9)
-2019-02-17 13:42:18 INFO  CodeGenerator:54 - Code generated in 23.639346 ms
-2019-02-17 13:42:18 INFO  CodeGenerator:54 - Code generated in 12.821685 ms
-2019-02-17 13:42:18 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 11). 1824 bytes result sent to driver
-2019-02-17 13:42:18 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 10). 1867 bytes result sent to driver
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Finished task 2.0 in stage 3.0 (TID 11) in 795 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 10) in 810 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:18 INFO  Executor:54 - Finished task 3.0 in stage 3.0 (TID 12). 1824 bytes result sent to driver
-2019-02-17 13:42:18 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on Admin-PC:50291 in memory (size: 8.5 KB, free: 885.6 MB)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Finished task 3.0 in stage 3.0 (TID 12) in 839 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:18 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 9). 1867 bytes result sent to driver
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 9) in 945 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:18 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - ShuffleMapStage 3 (show at WeatherAnalysis.scala:110) finished in 0.975 s
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 4)
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 4 (MapPartitionsRDD[19] at show at WeatherAnalysis.scala:110), which has no missing parents
-2019-02-17 13:42:18 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 22.8 KB, free 885.5 MB)
-2019-02-17 13:42:18 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 10.1 KB, free 885.5 MB)
-2019-02-17 13:42:18 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on Admin-PC:50291 (size: 10.1 KB, free: 885.6 MB)
-2019-02-17 13:42:18 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:18 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[19] at show at WeatherAnalysis.scala:110) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:18 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 4 tasks
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 13, localhost, executor driver, partition 0, ANY, 7756 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 1.0 in stage 4.0 (TID 14, localhost, executor driver, partition 1, ANY, 7756 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 2.0 in stage 4.0 (TID 15, localhost, executor driver, partition 2, ANY, 7756 bytes)
-2019-02-17 13:42:18 INFO  TaskSetManager:54 - Starting task 3.0 in stage 4.0 (TID 16, localhost, executor driver, partition 3, ANY, 7756 bytes)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 14)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 2.0 in stage 4.0 (TID 15)
-2019-02-17 13:42:18 INFO  Executor:54 - Running task 3.0 in stage 4.0 (TID 16)
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:19 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 13)
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 86
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 89
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 52
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 97
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 67
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 32
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 22
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 48
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 88
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 60
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 46
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 90
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 40
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 95
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 66
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 85
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 84
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 25
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 36
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 49
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 79
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 42
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 38
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 69
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 33
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 75
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 47
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 68
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 93
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 44
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 63
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 70
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 92
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 57
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 34
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 50
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 77
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 96
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 31
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 37
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 29
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 71
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 78
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 59
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 61
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 41
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 74
-2019-02-17 13:42:19 INFO  Executor:54 - Finished task 2.0 in stage 4.0 (TID 15). 2693 bytes result sent to driver
-2019-02-17 13:42:19 INFO  Executor:54 - Finished task 3.0 in stage 4.0 (TID 16). 2693 bytes result sent to driver
-2019-02-17 13:42:19 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 14). 2693 bytes result sent to driver
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Finished task 2.0 in stage 4.0 (TID 15) in 169 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Finished task 3.0 in stage 4.0 (TID 16) in 169 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:19 INFO  BlockManagerInfo:54 - Removed broadcast_0_piece0 on Admin-PC:50291 in memory (size: 9.5 KB, free: 885.6 MB)
-2019-02-17 13:42:19 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 13). 2693 bytes result sent to driver
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Finished task 1.0 in stage 4.0 (TID 14) in 175 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 13) in 179 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:19 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - ShuffleMapStage 4 (show at WeatherAnalysis.scala:110) finished in 0.201 s
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5)
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[27] at show at WeatherAnalysis.scala:110), which has no missing parents
-2019-02-17 13:42:19 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 29.9 KB, free 885.5 MB)
-2019-02-17 13:42:19 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 11.7 KB, free 885.5 MB)
-2019-02-17 13:42:19 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on Admin-PC:50291 (size: 11.7 KB, free: 885.6 MB)
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 54
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 87
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 94
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 98
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 73
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 81
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 28
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 39
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 51
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned shuffle 0
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 64
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 45
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 53
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 24
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 43
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 56
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 80
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 83
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 65
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 23
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 27
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 82
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 55
-2019-02-17 13:42:19 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[27] at show at WeatherAnalysis.scala:110) (first 15 tasks are for partitions Vector(0))
-2019-02-17 13:42:19 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 1 tasks
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 17, localhost, executor driver, partition 0, ANY, 7767 bytes)
-2019-02-17 13:42:19 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 17)
-2019-02-17 13:42:19 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on Admin-PC:50291 in memory (size: 10.2 KB, free: 885.6 MB)
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:19 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 32.403164 ms
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 91
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 58
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned accumulator 76
-2019-02-17 13:42:19 INFO  ContextCleaner:54 - Cleaned shuffle 1
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 34.229205 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 24.739409 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 13.347941 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 14.968371 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 20.290246 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 26.969424 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 17.589228 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 11.931763 ms
-2019-02-17 13:42:19 INFO  CodeGenerator:54 - Code generated in 20.684258 ms
-2019-02-17 13:42:19 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 17). 5944 bytes result sent to driver
-2019-02-17 13:42:19 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 17) in 353 ms on localhost (executor driver) (1/1)
-2019-02-17 13:42:19 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - ResultStage 5 (show at WeatherAnalysis.scala:110) finished in 0.432 s
-2019-02-17 13:42:19 INFO  DAGScheduler:54 - Job 1 finished: show at WeatherAnalysis.scala:110, took 1.633655 s
+2019-02-17 22:55:47 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+2019-02-17 22:55:47 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 30.009973 ms
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 23.362074 ms
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 23.212621 ms
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 43.887275 ms
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 71.632822 ms
+2019-02-17 22:55:47 INFO  CodeGenerator:54 - Code generated in 15.214219 ms
+2019-02-17 22:55:47 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:114
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Registering RDD 16 (show at WeatherAnalysis.scala:114)
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Registering RDD 19 (show at WeatherAnalysis.scala:114)
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Got job 1 (show at WeatherAnalysis.scala:114) with 1 output partitions
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Final stage: ResultStage 5 (show at WeatherAnalysis.scala:114)
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 4)
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 4)
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 3 (MapPartitionsRDD[16] at show at WeatherAnalysis.scala:114), which has no missing parents
+2019-02-17 22:55:47 INFO  MemoryStore:54 - Block broadcast_3 stored as values in memory (estimated size 25.0 KB, free 885.5 MB)
+2019-02-17 22:55:47 INFO  MemoryStore:54 - Block broadcast_3_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.5 MB)
+2019-02-17 22:55:47 INFO  BlockManagerInfo:54 - Added broadcast_3_piece0 in memory on Admin-PC:49901 (size: 11.1 KB, free: 885.6 MB)
+2019-02-17 22:55:47 INFO  SparkContext:54 - Created broadcast 3 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:47 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 3 (MapPartitionsRDD[16] at show at WeatherAnalysis.scala:114) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:47 INFO  TaskSchedulerImpl:54 - Adding task set 3.0 with 4 tasks
+2019-02-17 22:55:47 WARN  TaskSetManager:66 - Stage 3 contains a task of very large size (552 KB). The maximum recommended task size is 100 KB.
+2019-02-17 22:55:47 INFO  TaskSetManager:54 - Starting task 0.0 in stage 3.0 (TID 9, localhost, executor driver, partition 0, PROCESS_LOCAL, 566017 bytes)
+2019-02-17 22:55:47 INFO  TaskSetManager:54 - Starting task 1.0 in stage 3.0 (TID 10, localhost, executor driver, partition 1, PROCESS_LOCAL, 564289 bytes)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 2.0 in stage 3.0 (TID 11, localhost, executor driver, partition 2, PROCESS_LOCAL, 569481 bytes)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 3.0 in stage 3.0 (TID 12, localhost, executor driver, partition 3, PROCESS_LOCAL, 589650 bytes)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 0.0 in stage 3.0 (TID 9)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 3.0 in stage 3.0 (TID 12)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 2.0 in stage 3.0 (TID 11)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 1.0 in stage 3.0 (TID 10)
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 13.504578 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 17.377651 ms
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 2.0 in stage 3.0 (TID 11). 1824 bytes result sent to driver
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 2.0 in stage 3.0 (TID 11) in 320 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 1.0 in stage 3.0 (TID 10). 1824 bytes result sent to driver
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 0.0 in stage 3.0 (TID 9). 1824 bytes result sent to driver
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 3.0 in stage 3.0 (TID 12). 1867 bytes result sent to driver
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 1.0 in stage 3.0 (TID 10) in 356 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 0.0 in stage 3.0 (TID 9) in 359 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 3.0 in stage 3.0 (TID 12) in 328 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:48 INFO  TaskSchedulerImpl:54 - Removed TaskSet 3.0, whose tasks have all completed, from pool
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - ShuffleMapStage 3 (show at WeatherAnalysis.scala:114) finished in 0.382 s
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5, ShuffleMapStage 4)
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 4 (MapPartitionsRDD[19] at show at WeatherAnalysis.scala:114), which has no missing parents
+2019-02-17 22:55:48 INFO  MemoryStore:54 - Block broadcast_4 stored as values in memory (estimated size 22.8 KB, free 885.5 MB)
+2019-02-17 22:55:48 INFO  MemoryStore:54 - Block broadcast_4_piece0 stored as bytes in memory (estimated size 10.1 KB, free 885.4 MB)
+2019-02-17 22:55:48 INFO  BlockManagerInfo:54 - Added broadcast_4_piece0 in memory on Admin-PC:49901 (size: 10.1 KB, free: 885.6 MB)
+2019-02-17 22:55:48 INFO  SparkContext:54 - Created broadcast 4 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 4 (MapPartitionsRDD[19] at show at WeatherAnalysis.scala:114) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:48 INFO  TaskSchedulerImpl:54 - Adding task set 4.0 with 4 tasks
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 0.0 in stage 4.0 (TID 13, localhost, executor driver, partition 0, ANY, 7756 bytes)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 1.0 in stage 4.0 (TID 14, localhost, executor driver, partition 1, ANY, 7756 bytes)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 2.0 in stage 4.0 (TID 15, localhost, executor driver, partition 2, ANY, 7756 bytes)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 3.0 in stage 4.0 (TID 16, localhost, executor driver, partition 3, ANY, 7756 bytes)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 0.0 in stage 4.0 (TID 13)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 3.0 in stage 4.0 (TID 16)
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Getting 2 non-empty blocks including 2 local blocks and 0 remote blocks
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 0.0 in stage 4.0 (TID 13). 2736 bytes result sent to driver
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 1.0 in stage 4.0 (TID 14)
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 3.0 in stage 4.0 (TID 16). 2693 bytes result sent to driver
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 0.0 in stage 4.0 (TID 13) in 125 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 3.0 in stage 4.0 (TID 16) in 125 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 2.0 in stage 4.0 (TID 15)
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 1.0 in stage 4.0 (TID 14). 2736 bytes result sent to driver
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 1.0 in stage 4.0 (TID 14) in 168 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:48 INFO  Executor:54 - Finished task 2.0 in stage 4.0 (TID 15). 2736 bytes result sent to driver
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Finished task 2.0 in stage 4.0 (TID 15) in 217 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:48 INFO  TaskSchedulerImpl:54 - Removed TaskSet 4.0, whose tasks have all completed, from pool
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - ShuffleMapStage 4 (show at WeatherAnalysis.scala:114) finished in 0.235 s
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - waiting: Set(ResultStage 5)
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - Submitting ResultStage 5 (MapPartitionsRDD[27] at show at WeatherAnalysis.scala:114), which has no missing parents
+2019-02-17 22:55:48 INFO  MemoryStore:54 - Block broadcast_5 stored as values in memory (estimated size 29.9 KB, free 885.4 MB)
+2019-02-17 22:55:48 INFO  MemoryStore:54 - Block broadcast_5_piece0 stored as bytes in memory (estimated size 11.7 KB, free 885.4 MB)
+2019-02-17 22:55:48 INFO  BlockManagerInfo:54 - Added broadcast_5_piece0 in memory on Admin-PC:49901 (size: 11.7 KB, free: 885.5 MB)
+2019-02-17 22:55:48 INFO  SparkContext:54 - Created broadcast 5 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:48 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 5 (MapPartitionsRDD[27] at show at WeatherAnalysis.scala:114) (first 15 tasks are for partitions Vector(0))
+2019-02-17 22:55:48 INFO  TaskSchedulerImpl:54 - Adding task set 5.0 with 1 tasks
+2019-02-17 22:55:48 INFO  TaskSetManager:54 - Starting task 0.0 in stage 5.0 (TID 17, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-02-17 22:55:48 INFO  Executor:54 - Running task 0.0 in stage 5.0 (TID 17)
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:48 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 24.807229 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 21.848079 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 14.255914 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 21.308692 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 15.337404 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 31.51038 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 41.027759 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 84.054552 ms
+2019-02-17 22:55:48 INFO  CodeGenerator:54 - Code generated in 19.330944 ms
+2019-02-17 22:55:49 INFO  Executor:54 - Finished task 0.0 in stage 5.0 (TID 17). 5944 bytes result sent to driver
+2019-02-17 22:55:49 INFO  TaskSetManager:54 - Finished task 0.0 in stage 5.0 (TID 17) in 417 ms on localhost (executor driver) (1/1)
+2019-02-17 22:55:49 INFO  TaskSchedulerImpl:54 - Removed TaskSet 5.0, whose tasks have all completed, from pool
+2019-02-17 22:55:49 INFO  DAGScheduler:54 - ResultStage 5 (show at WeatherAnalysis.scala:114) finished in 0.442 s
+2019-02-17 22:55:49 INFO  DAGScheduler:54 - Job 1 finished: show at WeatherAnalysis.scala:114, took 1.089323 s
 +---------------+------------------+------------------+--------------+--------------+
 |   station_name|           rain_mm|         sun_hours|rank_rain_fall|rank_sun_hours|
 +---------------+------------------+------------------+--------------+--------------+
@@ -449,142 +366,326 @@ Total Data Create time :6 secs. Total No of List Elements :37189
 |      cambridge| 32116.20005041361| 77250.00020599365|            37|            24|
 +---------------+------------------+------------------+--------------+--------------+
 
-2019-02-17 13:42:20 INFO  CodeGenerator:54 - Code generated in 14.819371 ms
-2019-02-17 13:42:20 INFO  CodeGenerator:54 - Code generated in 19.719609 ms
-2019-02-17 13:42:20 INFO  CodeGenerator:54 - Code generated in 36.170732 ms
-2019-02-17 13:42:21 INFO  CodeGenerator:54 - Code generated in 55.735 ms
-2019-02-17 13:42:21 INFO  CodeGenerator:54 - Code generated in 12.578939 ms
-2019-02-17 13:42:21 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:118
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Registering RDD 31 (show at WeatherAnalysis.scala:118)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Registering RDD 34 (show at WeatherAnalysis.scala:118)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Got job 2 (show at WeatherAnalysis.scala:118) with 1 output partitions
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Final stage: ResultStage 8 (show at WeatherAnalysis.scala:118)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 7)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 7)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 6 (MapPartitionsRDD[31] at show at WeatherAnalysis.scala:118), which has no missing parents
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 25.7 KB, free 885.5 MB)
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 11.4 KB, free 885.5 MB)
-2019-02-17 13:42:21 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on Admin-PC:50291 (size: 11.4 KB, free: 885.6 MB)
-2019-02-17 13:42:21 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[31] at show at WeatherAnalysis.scala:118) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:21 INFO  TaskSchedulerImpl:54 - Adding task set 6.0 with 4 tasks
-2019-02-17 13:42:21 WARN  TaskSetManager:66 - Stage 6 contains a task of very large size (470 KB). The maximum recommended task size is 100 KB.
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 0.0 in stage 6.0 (TID 18, localhost, executor driver, partition 0, PROCESS_LOCAL, 481496 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 1.0 in stage 6.0 (TID 19, localhost, executor driver, partition 1, PROCESS_LOCAL, 486009 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 2.0 in stage 6.0 (TID 20, localhost, executor driver, partition 2, PROCESS_LOCAL, 483721 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 3.0 in stage 6.0 (TID 21, localhost, executor driver, partition 3, PROCESS_LOCAL, 498129 bytes)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 1.0 in stage 6.0 (TID 19)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 2.0 in stage 6.0 (TID 20)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 3.0 in stage 6.0 (TID 21)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 0.0 in stage 6.0 (TID 18)
-2019-02-17 13:42:21 INFO  CodeGenerator:54 - Code generated in 16.794864 ms
-2019-02-17 13:42:21 INFO  CodeGenerator:54 - Code generated in 22.832302 ms
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 1.0 in stage 6.0 (TID 19). 1781 bytes result sent to driver
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 2.0 in stage 6.0 (TID 20). 1824 bytes result sent to driver
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 3.0 in stage 6.0 (TID 21). 1824 bytes result sent to driver
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 1.0 in stage 6.0 (TID 19) in 278 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 2.0 in stage 6.0 (TID 20) in 273 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 3.0 in stage 6.0 (TID 21) in 269 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 0.0 in stage 6.0 (TID 18). 1824 bytes result sent to driver
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 0.0 in stage 6.0 (TID 18) in 447 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:21 INFO  TaskSchedulerImpl:54 - Removed TaskSet 6.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - ShuffleMapStage 6 (show at WeatherAnalysis.scala:118) finished in 0.470 s
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 7, ResultStage 8)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 7 (MapPartitionsRDD[34] at show at WeatherAnalysis.scala:118), which has no missing parents
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 23.3 KB, free 885.4 MB)
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 10.3 KB, free 885.4 MB)
-2019-02-17 13:42:21 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on Admin-PC:50291 (size: 10.3 KB, free: 885.5 MB)
-2019-02-17 13:42:21 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[34] at show at WeatherAnalysis.scala:118) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:21 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 4 tasks
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 22, localhost, executor driver, partition 0, ANY, 7756 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 23, localhost, executor driver, partition 1, ANY, 7756 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 2.0 in stage 7.0 (TID 24, localhost, executor driver, partition 2, ANY, 7756 bytes)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 3.0 in stage 7.0 (TID 25, localhost, executor driver, partition 3, ANY, 7756 bytes)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 2.0 in stage 7.0 (TID 24)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 22)
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 4 ms
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 6 ms
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 3.0 in stage 7.0 (TID 25)
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 22). 2696 bytes result sent to driver
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 1.0 in stage 7.0 (TID 23)
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 2.0 in stage 7.0 (TID 24). 2696 bytes result sent to driver
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 22) in 121 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 2.0 in stage 7.0 (TID 24) in 119 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 3.0 in stage 7.0 (TID 25). 2739 bytes result sent to driver
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:21 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 3.0 in stage 7.0 (TID 25) in 205 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:21 INFO  Executor:54 - Finished task 1.0 in stage 7.0 (TID 23). 2739 bytes result sent to driver
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 23) in 249 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:21 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - ShuffleMapStage 7 (show at WeatherAnalysis.scala:118) finished in 0.266 s
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - waiting: Set(ResultStage 8)
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting ResultStage 8 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:118), which has no missing parents
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 25.7 KB, free 885.4 MB)
-2019-02-17 13:42:21 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.4 MB)
-2019-02-17 13:42:21 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on Admin-PC:50291 (size: 11.1 KB, free: 885.5 MB)
-2019-02-17 13:42:21 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:21 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 8 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:118) (first 15 tasks are for partitions Vector(0))
-2019-02-17 13:42:21 INFO  TaskSchedulerImpl:54 - Adding task set 8.0 with 1 tasks
-2019-02-17 13:42:21 INFO  TaskSetManager:54 - Starting task 0.0 in stage 8.0 (TID 26, localhost, executor driver, partition 0, ANY, 7767 bytes)
-2019-02-17 13:42:21 INFO  Executor:54 - Running task 0.0 in stage 8.0 (TID 26)
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 18.807042 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 23.188723 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 18.740467 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 16.651299 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 24.643397 ms
-2019-02-17 13:42:22 INFO  CodeGenerator:54 - Code generated in 12.904564 ms
-2019-02-17 13:42:22 INFO  Executor:54 - Finished task 0.0 in stage 8.0 (TID 26). 4233 bytes result sent to driver
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Finished task 0.0 in stage 8.0 (TID 26) in 300 ms on localhost (executor driver) (1/1)
-2019-02-17 13:42:22 INFO  TaskSchedulerImpl:54 - Removed TaskSet 8.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - ResultStage 8 (show at WeatherAnalysis.scala:118) finished in 0.315 s
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Job 2 finished: show at WeatherAnalysis.scala:118, took 1.092464 s
-2019-02-17 13:42:22 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:118
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Got job 3 (show at WeatherAnalysis.scala:118) with 3 output partitions
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Final stage: ResultStage 11 (show at WeatherAnalysis.scala:118)
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 10)
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Missing parents: List()
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Submitting ResultStage 11 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:118), which has no missing parents
-2019-02-17 13:42:22 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 25.7 KB, free 885.4 MB)
-2019-02-17 13:42:22 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 11.0 KB, free 885.4 MB)
-2019-02-17 13:42:22 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on Admin-PC:50291 (size: 11.0 KB, free: 885.5 MB)
-2019-02-17 13:42:22 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ResultStage 11 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:118) (first 15 tasks are for partitions Vector(1, 2, 3))
-2019-02-17 13:42:22 INFO  TaskSchedulerImpl:54 - Adding task set 11.0 with 3 tasks
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Starting task 0.0 in stage 11.0 (TID 27, localhost, executor driver, partition 1, ANY, 7767 bytes)
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Starting task 1.0 in stage 11.0 (TID 28, localhost, executor driver, partition 2, ANY, 7767 bytes)
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Starting task 2.0 in stage 11.0 (TID 29, localhost, executor driver, partition 3, ANY, 7767 bytes)
-2019-02-17 13:42:22 INFO  Executor:54 - Running task 1.0 in stage 11.0 (TID 28)
-2019-02-17 13:42:22 INFO  Executor:54 - Running task 2.0 in stage 11.0 (TID 29)
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 2 ms
-2019-02-17 13:42:22 INFO  Executor:54 - Finished task 1.0 in stage 11.0 (TID 28). 4293 bytes result sent to driver
-2019-02-17 13:42:22 INFO  Executor:54 - Running task 0.0 in stage 11.0 (TID 27)
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:22 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:22 INFO  Executor:54 - Finished task 2.0 in stage 11.0 (TID 29). 3441 bytes result sent to driver
-2019-02-17 13:42:22 INFO  Executor:54 - Finished task 0.0 in stage 11.0 (TID 27). 4342 bytes result sent to driver
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Finished task 0.0 in stage 11.0 (TID 27) in 211 ms on localhost (executor driver) (1/3)
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Finished task 1.0 in stage 11.0 (TID 28) in 202 ms on localhost (executor driver) (2/3)
-2019-02-17 13:42:22 INFO  TaskSetManager:54 - Finished task 2.0 in stage 11.0 (TID 29) in 210 ms on localhost (executor driver) (3/3)
-2019-02-17 13:42:22 INFO  TaskSchedulerImpl:54 - Removed TaskSet 11.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - ResultStage 11 (show at WeatherAnalysis.scala:118) finished in 0.248 s
-2019-02-17 13:42:22 INFO  DAGScheduler:54 - Job 3 finished: show at WeatherAnalysis.scala:118, took 0.262649 s
+2019-02-17 22:55:49 INFO  ContextCleaner:54 - Cleaned accumulator 118
+2019-02-17 22:55:49 INFO  ContextCleaner:54 - Cleaned accumulator 67
+2019-02-17 22:55:49 INFO  ContextCleaner:54 - Cleaned accumulator 84
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned shuffle 3
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 166
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 25
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 176
+2019-02-17 22:55:50 INFO  BlockManagerInfo:54 - Removed broadcast_3_piece0 on Admin-PC:49901 in memory (size: 11.1 KB, free: 885.6 MB)
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 34
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 86
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 75
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 104
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 197
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 129
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 126
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 151
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 72
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 49
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 164
+2019-02-17 22:55:50 INFO  ContextCleaner:54 - Cleaned accumulator 110
+2019-02-17 22:55:50 INFO  CodeGenerator:54 - Code generated in 26.013715 ms
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned shuffle 2
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 43
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Removed broadcast_2_piece0 on Admin-PC:49901 in memory (size: 10.2 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 124
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 64
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 186
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 161
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 28
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 117
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 47
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 154
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 123
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 145
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 45
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 148
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 22
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 62
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 35
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 85
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 190
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 55
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 27
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 73
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 41
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 153
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 88
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 53
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 94
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 79
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 82
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 111
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 127
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 191
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 195
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 184
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 187
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 66
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 196
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 185
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 193
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 103
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 71
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 192
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 101
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 83
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 146
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 76
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 108
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 160
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 189
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 81
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 112
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 131
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 92
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 56
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on Admin-PC:49901 in memory (size: 10.1 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 152
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 180
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 133
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 138
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 39
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 156
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 174
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 29
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 128
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 172
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 157
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 37
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 24
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 98
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 70
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 77
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 102
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 61
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 26
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 194
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 114
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 130
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 170
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 169
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 178
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 150
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 115
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 163
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 159
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 132
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 147
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 165
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 107
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 106
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 74
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 167
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 44
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 116
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 120
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 50
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 182
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 136
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 158
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 59
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 141
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 183
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 113
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 122
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 181
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 23.229378 ms
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Removed broadcast_0_piece0 on Admin-PC:49901 in memory (size: 9.5 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 135
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 46
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 177
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 51
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 105
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 149
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 173
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 139
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 137
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 48
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 89
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 31
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 69
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 36
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 65
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 78
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 33
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 80
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 125
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 60
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 23
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 68
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 179
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 119
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 175
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 121
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 97
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 38
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 58
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 144
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 188
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 95
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 54
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 109
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 140
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 168
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on Admin-PC:49901 in memory (size: 11.7 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 30
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 171
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 162
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 57
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 93
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 155
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 32
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 91
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 134
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 40
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 96
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 42
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 143
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 100
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 142
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 99
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 52
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 44.26317 ms
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Removed broadcast_1_piece0 on Admin-PC:49901 in memory (size: 8.5 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 63
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 87
+2019-02-17 22:55:51 INFO  ContextCleaner:54 - Cleaned accumulator 90
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 60.778074 ms
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 34.885733 ms
+2019-02-17 22:55:51 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:122
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Registering RDD 31 (show at WeatherAnalysis.scala:122)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Registering RDD 34 (show at WeatherAnalysis.scala:122)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Got job 2 (show at WeatherAnalysis.scala:122) with 1 output partitions
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Final stage: ResultStage 8 (show at WeatherAnalysis.scala:122)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 7)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 7)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 6 (MapPartitionsRDD[31] at show at WeatherAnalysis.scala:122), which has no missing parents
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_6 stored as values in memory (estimated size 25.7 KB, free 885.6 MB)
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_6_piece0 stored as bytes in memory (estimated size 11.4 KB, free 885.6 MB)
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Added broadcast_6_piece0 in memory on Admin-PC:49901 (size: 11.4 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  SparkContext:54 - Created broadcast 6 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 6 (MapPartitionsRDD[31] at show at WeatherAnalysis.scala:122) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:51 INFO  TaskSchedulerImpl:54 - Adding task set 6.0 with 4 tasks
+2019-02-17 22:55:51 WARN  TaskSetManager:66 - Stage 6 contains a task of very large size (470 KB). The maximum recommended task size is 100 KB.
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 0.0 in stage 6.0 (TID 18, localhost, executor driver, partition 0, PROCESS_LOCAL, 481496 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 1.0 in stage 6.0 (TID 19, localhost, executor driver, partition 1, PROCESS_LOCAL, 486009 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 2.0 in stage 6.0 (TID 20, localhost, executor driver, partition 2, PROCESS_LOCAL, 483721 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 3.0 in stage 6.0 (TID 21, localhost, executor driver, partition 3, PROCESS_LOCAL, 498129 bytes)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 2.0 in stage 6.0 (TID 20)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 3.0 in stage 6.0 (TID 21)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 1.0 in stage 6.0 (TID 19)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 0.0 in stage 6.0 (TID 18)
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 27.631874 ms
+2019-02-17 22:55:51 INFO  CodeGenerator:54 - Code generated in 33.745821 ms
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 3.0 in stage 6.0 (TID 21). 1824 bytes result sent to driver
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 3.0 in stage 6.0 (TID 21) in 253 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 2.0 in stage 6.0 (TID 20). 1824 bytes result sent to driver
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 1.0 in stage 6.0 (TID 19). 1824 bytes result sent to driver
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 2.0 in stage 6.0 (TID 20) in 283 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 1.0 in stage 6.0 (TID 19) in 283 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 0.0 in stage 6.0 (TID 18). 1781 bytes result sent to driver
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 0.0 in stage 6.0 (TID 18) in 346 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:51 INFO  TaskSchedulerImpl:54 - Removed TaskSet 6.0, whose tasks have all completed, from pool
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - ShuffleMapStage 6 (show at WeatherAnalysis.scala:122) finished in 0.346 s
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 7, ResultStage 8)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 7 (MapPartitionsRDD[34] at show at WeatherAnalysis.scala:122), which has no missing parents
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_7 stored as values in memory (estimated size 23.3 KB, free 885.5 MB)
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_7_piece0 stored as bytes in memory (estimated size 10.3 KB, free 885.5 MB)
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Added broadcast_7_piece0 in memory on Admin-PC:49901 (size: 10.3 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  SparkContext:54 - Created broadcast 7 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 7 (MapPartitionsRDD[34] at show at WeatherAnalysis.scala:122) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:51 INFO  TaskSchedulerImpl:54 - Adding task set 7.0 with 4 tasks
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 0.0 in stage 7.0 (TID 22, localhost, executor driver, partition 0, ANY, 7756 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 1.0 in stage 7.0 (TID 23, localhost, executor driver, partition 1, ANY, 7756 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 2.0 in stage 7.0 (TID 24, localhost, executor driver, partition 2, ANY, 7756 bytes)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 3.0 in stage 7.0 (TID 25, localhost, executor driver, partition 3, ANY, 7756 bytes)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 1.0 in stage 7.0 (TID 23)
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 0.0 in stage 7.0 (TID 22)
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 2.0 in stage 7.0 (TID 24)
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 2.0 in stage 7.0 (TID 24). 2739 bytes result sent to driver
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 78 ms
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 1.0 in stage 7.0 (TID 23). 2739 bytes result sent to driver
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 3.0 in stage 7.0 (TID 25)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 2.0 in stage 7.0 (TID 24) in 156 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 1.0 in stage 7.0 (TID 23) in 156 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 0.0 in stage 7.0 (TID 22). 2653 bytes result sent to driver
+2019-02-17 22:55:51 INFO  Executor:54 - Finished task 3.0 in stage 7.0 (TID 25). 2739 bytes result sent to driver
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 0.0 in stage 7.0 (TID 22) in 203 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Finished task 3.0 in stage 7.0 (TID 25) in 203 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:51 INFO  TaskSchedulerImpl:54 - Removed TaskSet 7.0, whose tasks have all completed, from pool
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - ShuffleMapStage 7 (show at WeatherAnalysis.scala:122) finished in 0.219 s
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - waiting: Set(ResultStage 8)
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting ResultStage 8 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:122), which has no missing parents
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_8 stored as values in memory (estimated size 25.7 KB, free 885.5 MB)
+2019-02-17 22:55:51 INFO  MemoryStore:54 - Block broadcast_8_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.5 MB)
+2019-02-17 22:55:51 INFO  BlockManagerInfo:54 - Added broadcast_8_piece0 in memory on Admin-PC:49901 (size: 11.1 KB, free: 885.6 MB)
+2019-02-17 22:55:51 INFO  SparkContext:54 - Created broadcast 8 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:51 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 8 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:122) (first 15 tasks are for partitions Vector(0))
+2019-02-17 22:55:51 INFO  TaskSchedulerImpl:54 - Adding task set 8.0 with 1 tasks
+2019-02-17 22:55:51 INFO  TaskSetManager:54 - Starting task 0.0 in stage 8.0 (TID 26, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-02-17 22:55:51 INFO  Executor:54 - Running task 0.0 in stage 8.0 (TID 26)
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:51 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 15 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 13.795783 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 23.596215 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 13.838355 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 21.112141 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 39.516935 ms
+2019-02-17 22:55:52 INFO  CodeGenerator:54 - Code generated in 16.216 ms
+2019-02-17 22:55:52 INFO  Executor:54 - Finished task 0.0 in stage 8.0 (TID 26). 4190 bytes result sent to driver
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Finished task 0.0 in stage 8.0 (TID 26) in 298 ms on localhost (executor driver) (1/1)
+2019-02-17 22:55:52 INFO  TaskSchedulerImpl:54 - Removed TaskSet 8.0, whose tasks have all completed, from pool
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - ResultStage 8 (show at WeatherAnalysis.scala:122) finished in 0.313 s
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Job 2 finished: show at WeatherAnalysis.scala:122, took 0.899925 s
+2019-02-17 22:55:52 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:122
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Got job 3 (show at WeatherAnalysis.scala:122) with 3 output partitions
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Final stage: ResultStage 11 (show at WeatherAnalysis.scala:122)
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 10)
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Missing parents: List()
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Submitting ResultStage 11 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:122), which has no missing parents
+2019-02-17 22:55:52 INFO  MemoryStore:54 - Block broadcast_9 stored as values in memory (estimated size 25.7 KB, free 885.5 MB)
+2019-02-17 22:55:52 INFO  MemoryStore:54 - Block broadcast_9_piece0 stored as bytes in memory (estimated size 11.0 KB, free 885.5 MB)
+2019-02-17 22:55:52 INFO  BlockManagerInfo:54 - Added broadcast_9_piece0 in memory on Admin-PC:49901 (size: 11.0 KB, free: 885.6 MB)
+2019-02-17 22:55:52 INFO  SparkContext:54 - Created broadcast 9 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Submitting 3 missing tasks from ResultStage 11 (MapPartitionsRDD[40] at show at WeatherAnalysis.scala:122) (first 15 tasks are for partitions Vector(1, 2, 3))
+2019-02-17 22:55:52 INFO  TaskSchedulerImpl:54 - Adding task set 11.0 with 3 tasks
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Starting task 0.0 in stage 11.0 (TID 27, localhost, executor driver, partition 1, ANY, 7767 bytes)
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Starting task 1.0 in stage 11.0 (TID 28, localhost, executor driver, partition 2, ANY, 7767 bytes)
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Starting task 2.0 in stage 11.0 (TID 29, localhost, executor driver, partition 3, ANY, 7767 bytes)
+2019-02-17 22:55:52 INFO  Executor:54 - Running task 0.0 in stage 11.0 (TID 27)
+2019-02-17 22:55:52 INFO  Executor:54 - Running task 2.0 in stage 11.0 (TID 29)
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-02-17 22:55:52 INFO  Executor:54 - Finished task 2.0 in stage 11.0 (TID 29). 3441 bytes result sent to driver
+2019-02-17 22:55:52 INFO  Executor:54 - Running task 1.0 in stage 11.0 (TID 28)
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:52 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
+2019-02-17 22:55:52 INFO  Executor:54 - Finished task 0.0 in stage 11.0 (TID 27). 4342 bytes result sent to driver
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Finished task 2.0 in stage 11.0 (TID 29) in 112 ms on localhost (executor driver) (1/3)
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Finished task 0.0 in stage 11.0 (TID 27) in 122 ms on localhost (executor driver) (2/3)
+2019-02-17 22:55:52 INFO  Executor:54 - Finished task 1.0 in stage 11.0 (TID 28). 4250 bytes result sent to driver
+2019-02-17 22:55:52 INFO  TaskSetManager:54 - Finished task 1.0 in stage 11.0 (TID 28) in 142 ms on localhost (executor driver) (3/3)
+2019-02-17 22:55:52 INFO  TaskSchedulerImpl:54 - Removed TaskSet 11.0, whose tasks have all completed, from pool
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - ResultStage 11 (show at WeatherAnalysis.scala:122) finished in 0.167 s
+2019-02-17 22:55:52 INFO  DAGScheduler:54 - Job 3 finished: show at WeatherAnalysis.scala:122, took 0.181086 s
 +---------------+----+------------------+------------------+
 |   station_name|year|           rain_mm|         sun_hours|
 +---------------+----+------------------+------------------+
@@ -663,290 +764,107 @@ Total Data Create time :6 secs. Total No of List Elements :37189
 |         whitby|2019|              34.5|  69.0999984741211|
 +---------------+----+------------------+------------------+
 
-2019-02-17 13:42:23 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 15.478774 ms
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 20.616325 ms
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 35.570203 ms
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 317
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 161
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 180
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 204
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 242
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 269
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 175
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 159
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 233
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 193
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 258
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 182
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 184
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 280
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 307
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 245
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 207
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 151
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 221
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 313
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 315
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 266
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 234
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 172
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 274
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 272
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 197
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 173
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 206
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 253
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 130.0669 ms
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned shuffle 5
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 244
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 179
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 247
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 263
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 264
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 200
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 224
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 321
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 226
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 155
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 290
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 169
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 238
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 225
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 277
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 292
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 158
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 260
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 194
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 202
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 205
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 291
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 209
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_5_piece0 on Admin-PC:50291 in memory (size: 11.7 KB, free: 885.5 MB)
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 10.40191 ms
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 216
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 203
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 302
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 287
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 217
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 314
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 223
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_6_piece0 on Admin-PC:50291 in memory (size: 11.4 KB, free: 885.5 MB)
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 297
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 157
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 304
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 288
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 164
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 236
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 249
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 261
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned shuffle 4
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 153
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 165
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 201
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 222
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 174
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 265
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 231
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 246
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 243
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 310
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 289
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 183
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 214
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 176
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 192
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 154
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 240
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 286
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 168
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 212
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 319
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 162
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 235
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 278
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 211
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 320
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 300
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 285
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 198
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 181
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 215
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 322
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 189
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 196
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 191
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 148
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 227
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 229
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 284
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 210
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 177
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 150
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 309
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 312
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 250
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 308
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 218
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 256
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 248
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 268
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 208
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 255
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 306
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 195
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 167
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 241
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 152
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 299
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 156
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 301
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 273
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 149
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 188
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 228
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 298
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 199
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 163
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 220
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 295
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 239
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 267
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 232
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 237
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 294
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 178
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_8_piece0 on Admin-PC:50291 in memory (size: 11.1 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 316
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 170
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 305
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 283
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 252
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 166
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 311
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 275
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 254
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_7_piece0 on Admin-PC:50291 in memory (size: 10.3 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:124
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Registering RDD 44 (show at WeatherAnalysis.scala:124)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Registering RDD 47 (show at WeatherAnalysis.scala:124)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Got job 4 (show at WeatherAnalysis.scala:124) with 1 output partitions
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Final stage: ResultStage 14 (show at WeatherAnalysis.scala:124)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 13)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 13)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 12 (MapPartitionsRDD[44] at show at WeatherAnalysis.scala:124), which has no missing parents
-2019-02-17 13:42:23 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 24.5 KB, free 885.5 MB)
-2019-02-17 13:42:23 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.5 MB)
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on Admin-PC:50291 (size: 11.1 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  SparkContext:54 - Created broadcast 10 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 12 (MapPartitionsRDD[44] at show at WeatherAnalysis.scala:124) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:23 INFO  TaskSchedulerImpl:54 - Adding task set 12.0 with 4 tasks
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 0.0 in stage 12.0 (TID 30, localhost, executor driver, partition 0, PROCESS_LOCAL, 32559 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 1.0 in stage 12.0 (TID 31, localhost, executor driver, partition 1, PROCESS_LOCAL, 32559 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 2.0 in stage 12.0 (TID 32, localhost, executor driver, partition 2, PROCESS_LOCAL, 32559 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 3.0 in stage 12.0 (TID 33, localhost, executor driver, partition 3, PROCESS_LOCAL, 32600 bytes)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 3.0 in stage 12.0 (TID 33)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 1.0 in stage 12.0 (TID 31)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 2.0 in stage 12.0 (TID 32)
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_9_piece0 on Admin-PC:50291 in memory (size: 11.0 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 0.0 in stage 12.0 (TID 30)
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 15.040832 ms
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 187
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 279
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 262
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 160
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 271
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 296
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 318
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 259
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 281
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 303
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 219
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 213
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 11.591644 ms
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 35.630437 ms
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Removed broadcast_4_piece0 on Admin-PC:50291 in memory (size: 10.1 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  CodeGenerator:54 - Code generated in 42.067774 ms
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 282
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 190
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 293
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 186
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 251
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 270
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 257
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 185
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 171
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 230
-2019-02-17 13:42:23 INFO  ContextCleaner:54 - Cleaned accumulator 276
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 1.0 in stage 12.0 (TID 31). 1824 bytes result sent to driver
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 3.0 in stage 12.0 (TID 33). 1824 bytes result sent to driver
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 1.0 in stage 12.0 (TID 31) in 275 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 2.0 in stage 12.0 (TID 32). 1781 bytes result sent to driver
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 3.0 in stage 12.0 (TID 33) in 278 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 0.0 in stage 12.0 (TID 30). 1781 bytes result sent to driver
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 2.0 in stage 12.0 (TID 32) in 283 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 0.0 in stage 12.0 (TID 30) in 288 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:23 INFO  TaskSchedulerImpl:54 - Removed TaskSet 12.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - ShuffleMapStage 12 (show at WeatherAnalysis.scala:124) finished in 0.311 s
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 13, ResultStage 14)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 13 (MapPartitionsRDD[47] at show at WeatherAnalysis.scala:124), which has no missing parents
-2019-02-17 13:42:23 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 20.7 KB, free 885.5 MB)
-2019-02-17 13:42:23 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 9.6 KB, free 885.5 MB)
-2019-02-17 13:42:23 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on Admin-PC:50291 (size: 9.6 KB, free: 885.6 MB)
-2019-02-17 13:42:23 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 13 (MapPartitionsRDD[47] at show at WeatherAnalysis.scala:124) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
-2019-02-17 13:42:23 INFO  TaskSchedulerImpl:54 - Adding task set 13.0 with 4 tasks
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 0.0 in stage 13.0 (TID 34, localhost, executor driver, partition 0, ANY, 7756 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 1.0 in stage 13.0 (TID 35, localhost, executor driver, partition 1, ANY, 7756 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 2.0 in stage 13.0 (TID 36, localhost, executor driver, partition 2, ANY, 7756 bytes)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Starting task 3.0 in stage 13.0 (TID 37, localhost, executor driver, partition 3, ANY, 7756 bytes)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 0.0 in stage 13.0 (TID 34)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 3.0 in stage 13.0 (TID 37)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 1.0 in stage 13.0 (TID 35)
-2019-02-17 13:42:23 INFO  Executor:54 - Running task 2.0 in stage 13.0 (TID 36)
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:23 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 1.0 in stage 13.0 (TID 35). 2693 bytes result sent to driver
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 3.0 in stage 13.0 (TID 37). 2693 bytes result sent to driver
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 0.0 in stage 13.0 (TID 34). 2693 bytes result sent to driver
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 1.0 in stage 13.0 (TID 35) in 87 ms on localhost (executor driver) (1/4)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 3.0 in stage 13.0 (TID 37) in 86 ms on localhost (executor driver) (2/4)
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 0.0 in stage 13.0 (TID 34) in 90 ms on localhost (executor driver) (3/4)
-2019-02-17 13:42:23 INFO  Executor:54 - Finished task 2.0 in stage 13.0 (TID 36). 2693 bytes result sent to driver
-2019-02-17 13:42:23 INFO  TaskSetManager:54 - Finished task 2.0 in stage 13.0 (TID 36) in 101 ms on localhost (executor driver) (4/4)
-2019-02-17 13:42:23 INFO  TaskSchedulerImpl:54 - Removed TaskSet 13.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - ShuffleMapStage 13 (show at WeatherAnalysis.scala:124) finished in 0.117 s
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - looking for newly runnable stages
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - running: Set()
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - waiting: Set(ResultStage 14)
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - failed: Set()
-2019-02-17 13:42:23 INFO  DAGScheduler:54 - Submitting ResultStage 14 (MapPartitionsRDD[52] at show at WeatherAnalysis.scala:124), which has no missing parents
-2019-02-17 13:42:24 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 21.8 KB, free 885.5 MB)
-2019-02-17 13:42:24 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 9.8 KB, free 885.5 MB)
-2019-02-17 13:42:24 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on Admin-PC:50291 (size: 9.8 KB, free: 885.6 MB)
-2019-02-17 13:42:24 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1161
-2019-02-17 13:42:24 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 14 (MapPartitionsRDD[52] at show at WeatherAnalysis.scala:124) (first 15 tasks are for partitions Vector(0))
-2019-02-17 13:42:24 INFO  TaskSchedulerImpl:54 - Adding task set 14.0 with 1 tasks
-2019-02-17 13:42:24 INFO  TaskSetManager:54 - Starting task 0.0 in stage 14.0 (TID 38, localhost, executor driver, partition 0, ANY, 7767 bytes)
-2019-02-17 13:42:24 INFO  Executor:54 - Running task 0.0 in stage 14.0 (TID 38)
-2019-02-17 13:42:24 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
-2019-02-17 13:42:24 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 1 ms
-2019-02-17 13:42:24 INFO  CodeGenerator:54 - Code generated in 11.913647 ms
-2019-02-17 13:42:24 INFO  CodeGenerator:54 - Code generated in 25.041031 ms
-2019-02-17 13:42:24 INFO  Executor:54 - Finished task 0.0 in stage 14.0 (TID 38). 2755 bytes result sent to driver
-2019-02-17 13:42:24 INFO  TaskSetManager:54 - Finished task 0.0 in stage 14.0 (TID 38) in 122 ms on localhost (executor driver) (1/1)
-2019-02-17 13:42:24 INFO  TaskSchedulerImpl:54 - Removed TaskSet 14.0, whose tasks have all completed, from pool 
-2019-02-17 13:42:24 INFO  DAGScheduler:54 - ResultStage 14 (show at WeatherAnalysis.scala:124) finished in 0.162 s
-2019-02-17 13:42:24 INFO  DAGScheduler:54 - Job 4 finished: show at WeatherAnalysis.scala:124, took 0.612926 s
+2019-02-17 22:55:52 WARN  WindowExec:66 - No Partition Defined for Window operation! Moving all data to a single partition, this can cause serious performance degradation.
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 14.581086 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 26.374664 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 47.337353 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 83.721682 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 10.3371 ms
+2019-02-17 22:55:53 INFO  SparkContext:54 - Starting job: show at WeatherAnalysis.scala:128
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Registering RDD 44 (show at WeatherAnalysis.scala:128)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Registering RDD 47 (show at WeatherAnalysis.scala:128)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Got job 4 (show at WeatherAnalysis.scala:128) with 1 output partitions
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Final stage: ResultStage 14 (show at WeatherAnalysis.scala:128)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Parents of final stage: List(ShuffleMapStage 13)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Missing parents: List(ShuffleMapStage 13)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 12 (MapPartitionsRDD[44] at show at WeatherAnalysis.scala:128), which has no missing parents
+2019-02-17 22:55:53 INFO  MemoryStore:54 - Block broadcast_10 stored as values in memory (estimated size 24.5 KB, free 885.4 MB)
+2019-02-17 22:55:53 INFO  MemoryStore:54 - Block broadcast_10_piece0 stored as bytes in memory (estimated size 11.1 KB, free 885.4 MB)
+2019-02-17 22:55:53 INFO  BlockManagerInfo:54 - Added broadcast_10_piece0 in memory on Admin-PC:49901 (size: 11.1 KB, free: 885.5 MB)
+2019-02-17 22:55:53 INFO  SparkContext:54 - Created broadcast 10 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 12 (MapPartitionsRDD[44] at show at WeatherAnalysis.scala:128) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:53 INFO  TaskSchedulerImpl:54 - Adding task set 12.0 with 4 tasks
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 0.0 in stage 12.0 (TID 30, localhost, executor driver, partition 0, PROCESS_LOCAL, 32559 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 1.0 in stage 12.0 (TID 31, localhost, executor driver, partition 1, PROCESS_LOCAL, 32559 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 2.0 in stage 12.0 (TID 32, localhost, executor driver, partition 2, PROCESS_LOCAL, 32559 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 3.0 in stage 12.0 (TID 33, localhost, executor driver, partition 3, PROCESS_LOCAL, 32600 bytes)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 1.0 in stage 12.0 (TID 31)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 3.0 in stage 12.0 (TID 33)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 0.0 in stage 12.0 (TID 30)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 2.0 in stage 12.0 (TID 32)
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 11.976091 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 40.216189 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 11.032279 ms
+2019-02-17 22:55:53 INFO  CodeGenerator:54 - Code generated in 20.783346 ms
+2019-02-17 22:55:53 INFO  Executor:54 - Finished task 3.0 in stage 12.0 (TID 33). 1781 bytes result sent to driver
+2019-02-17 22:55:53 INFO  Executor:54 - Finished task 0.0 in stage 12.0 (TID 30). 1824 bytes result sent to driver
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Finished task 3.0 in stage 12.0 (TID 33) in 363 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Finished task 0.0 in stage 12.0 (TID 30) in 363 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:53 INFO  Executor:54 - Finished task 2.0 in stage 12.0 (TID 32). 1781 bytes result sent to driver
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Finished task 2.0 in stage 12.0 (TID 32) in 379 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:53 INFO  Executor:54 - Finished task 1.0 in stage 12.0 (TID 31). 1781 bytes result sent to driver
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Finished task 1.0 in stage 12.0 (TID 31) in 441 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:53 INFO  TaskSchedulerImpl:54 - Removed TaskSet 12.0, whose tasks have all completed, from pool
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - ShuffleMapStage 12 (show at WeatherAnalysis.scala:128) finished in 0.457 s
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - waiting: Set(ShuffleMapStage 13, ResultStage 14)
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Submitting ShuffleMapStage 13 (MapPartitionsRDD[47] at show at WeatherAnalysis.scala:128), which has no missing parents
+2019-02-17 22:55:53 INFO  MemoryStore:54 - Block broadcast_11 stored as values in memory (estimated size 20.7 KB, free 885.4 MB)
+2019-02-17 22:55:53 INFO  MemoryStore:54 - Block broadcast_11_piece0 stored as bytes in memory (estimated size 9.6 KB, free 885.4 MB)
+2019-02-17 22:55:53 INFO  BlockManagerInfo:54 - Added broadcast_11_piece0 in memory on Admin-PC:49901 (size: 9.6 KB, free: 885.5 MB)
+2019-02-17 22:55:53 INFO  SparkContext:54 - Created broadcast 11 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:53 INFO  DAGScheduler:54 - Submitting 4 missing tasks from ShuffleMapStage 13 (MapPartitionsRDD[47] at show at WeatherAnalysis.scala:128) (first 15 tasks are for partitions Vector(0, 1, 2, 3))
+2019-02-17 22:55:53 INFO  TaskSchedulerImpl:54 - Adding task set 13.0 with 4 tasks
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 0.0 in stage 13.0 (TID 34, localhost, executor driver, partition 0, ANY, 7756 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 1.0 in stage 13.0 (TID 35, localhost, executor driver, partition 1, ANY, 7756 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 2.0 in stage 13.0 (TID 36, localhost, executor driver, partition 2, ANY, 7756 bytes)
+2019-02-17 22:55:53 INFO  TaskSetManager:54 - Starting task 3.0 in stage 13.0 (TID 37, localhost, executor driver, partition 3, ANY, 7756 bytes)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 1.0 in stage 13.0 (TID 35)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 3.0 in stage 13.0 (TID 37)
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 0.0 in stage 13.0 (TID 34)
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:53 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:53 INFO  Executor:54 - Running task 2.0 in stage 13.0 (TID 36)
+2019-02-17 22:55:54 INFO  Executor:54 - Finished task 1.0 in stage 13.0 (TID 35). 2650 bytes result sent to driver
+2019-02-17 22:55:54 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:54 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 16 ms
+2019-02-17 22:55:54 INFO  Executor:54 - Finished task 0.0 in stage 13.0 (TID 34). 2650 bytes result sent to driver
+2019-02-17 22:55:54 INFO  Executor:54 - Finished task 2.0 in stage 13.0 (TID 36). 2693 bytes result sent to driver
+2019-02-17 22:55:54 INFO  Executor:54 - Finished task 3.0 in stage 13.0 (TID 37). 2650 bytes result sent to driver
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Finished task 0.0 in stage 13.0 (TID 34) in 114 ms on localhost (executor driver) (1/4)
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Finished task 2.0 in stage 13.0 (TID 36) in 114 ms on localhost (executor driver) (2/4)
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Finished task 3.0 in stage 13.0 (TID 37) in 114 ms on localhost (executor driver) (3/4)
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Finished task 1.0 in stage 13.0 (TID 35) in 129 ms on localhost (executor driver) (4/4)
+2019-02-17 22:55:54 INFO  TaskSchedulerImpl:54 - Removed TaskSet 13.0, whose tasks have all completed, from pool
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - ShuffleMapStage 13 (show at WeatherAnalysis.scala:128) finished in 0.159 s
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - looking for newly runnable stages
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - running: Set()
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - waiting: Set(ResultStage 14)
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - failed: Set()
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - Submitting ResultStage 14 (MapPartitionsRDD[52] at show at WeatherAnalysis.scala:128), which has no missing parents
+2019-02-17 22:55:54 INFO  MemoryStore:54 - Block broadcast_12 stored as values in memory (estimated size 21.8 KB, free 885.4 MB)
+2019-02-17 22:55:54 INFO  MemoryStore:54 - Block broadcast_12_piece0 stored as bytes in memory (estimated size 9.8 KB, free 885.4 MB)
+2019-02-17 22:55:54 INFO  BlockManagerInfo:54 - Added broadcast_12_piece0 in memory on Admin-PC:49901 (size: 9.8 KB, free: 885.5 MB)
+2019-02-17 22:55:54 INFO  SparkContext:54 - Created broadcast 12 from broadcast at DAGScheduler.scala:1161
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - Submitting 1 missing tasks from ResultStage 14 (MapPartitionsRDD[52] at show at WeatherAnalysis.scala:128) (first 15 tasks are for partitions Vector(0))
+2019-02-17 22:55:54 INFO  TaskSchedulerImpl:54 - Adding task set 14.0 with 1 tasks
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Starting task 0.0 in stage 14.0 (TID 38, localhost, executor driver, partition 0, ANY, 7767 bytes)
+2019-02-17 22:55:54 INFO  Executor:54 - Running task 0.0 in stage 14.0 (TID 38)
+2019-02-17 22:55:54 INFO  ShuffleBlockFetcherIterator:54 - Getting 4 non-empty blocks including 4 local blocks and 0 remote blocks
+2019-02-17 22:55:54 INFO  ShuffleBlockFetcherIterator:54 - Started 0 remote fetches in 0 ms
+2019-02-17 22:55:54 INFO  CodeGenerator:54 - Code generated in 12.257333 ms
+2019-02-17 22:55:54 INFO  CodeGenerator:54 - Code generated in 24.953512 ms
+2019-02-17 22:55:54 INFO  Executor:54 - Finished task 0.0 in stage 14.0 (TID 38). 2712 bytes result sent to driver
+2019-02-17 22:55:54 INFO  TaskSetManager:54 - Finished task 0.0 in stage 14.0 (TID 38) in 82 ms on localhost (executor driver) (1/1)
+2019-02-17 22:55:54 INFO  TaskSchedulerImpl:54 - Removed TaskSet 14.0, whose tasks have all completed, from pool
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - ResultStage 14 (show at WeatherAnalysis.scala:128) finished in 0.113 s
+2019-02-17 22:55:54 INFO  DAGScheduler:54 - Job 4 finished: show at WeatherAnalysis.scala:128, took 0.765203 s
 +----+-----------------+--------------------+--------------------+
 |year|    avg_sun_hours|max_avg_yr_sun_hours|min_avg_yr_sun_hours|
 +----+-----------------+--------------------+--------------------+
@@ -954,15 +872,15 @@ Total Data Create time :6 secs. Total No of List Elements :37189
 |1983|128.4911761564367|   255.1666717529297|   128.4911761564367|
 +----+-----------------+--------------------+--------------------+
 
-2019-02-17 13:42:24 INFO  AbstractConnector:318 - Stopped Spark@1051c2dc{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
-2019-02-17 13:42:24 INFO  SparkUI:54 - Stopped Spark web UI at http://Admin-PC:4040
-2019-02-17 13:42:24 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
-2019-02-17 13:42:24 INFO  MemoryStore:54 - MemoryStore cleared
-2019-02-17 13:42:24 INFO  BlockManager:54 - BlockManager stopped
-2019-02-17 13:42:24 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
-2019-02-17 13:42:24 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
-2019-02-17 13:42:24 INFO  SparkContext:54 - Successfully stopped SparkContext
-2019-02-17 13:42:24 INFO  ShutdownHookManager:54 - Shutdown hook called
-2019-02-17 13:42:24 INFO  ShutdownHookManager:54 - Deleting directory C:\Users\Admin\AppData\Local\Temp\spark-c48e9147-9129-4703-8c29-14a1951446c0
+2019-02-17 22:55:54 INFO  AbstractConnector:318 - Stopped Spark@3661c77b{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2019-02-17 22:55:54 INFO  SparkUI:54 - Stopped Spark web UI at http://Admin-PC:4040
+2019-02-17 22:55:54 INFO  MapOutputTrackerMasterEndpoint:54 - MapOutputTrackerMasterEndpoint stopped!
+2019-02-17 22:55:54 INFO  MemoryStore:54 - MemoryStore cleared
+2019-02-17 22:55:54 INFO  BlockManager:54 - BlockManager stopped
+2019-02-17 22:55:54 INFO  BlockManagerMaster:54 - BlockManagerMaster stopped
+2019-02-17 22:55:54 INFO  OutputCommitCoordinator$OutputCommitCoordinatorEndpoint:54 - OutputCommitCoordinator stopped!
+2019-02-17 22:55:54 INFO  SparkContext:54 - Successfully stopped SparkContext
+2019-02-17 22:55:54 INFO  ShutdownHookManager:54 - Shutdown hook called
+2019-02-17 22:55:54 INFO  ShutdownHookManager:54 - Deleting directory C:\Users\Admin\AppData\Local\Temp\spark-e68b908e-4b69-4df2-91f3-d6d17b130c29
 
 Process finished with exit code 0
