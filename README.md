@@ -26,8 +26,8 @@ Some Testable Questions
 
 Code Description
 =================
-1.Code always get's the latest day from source URL's for each station.
-2.Data cleaning is needed for variable length headers and foot note being present when station is Closed.
-3.Additionally there are special characters like * # $, and missing columnn data indicated by(---) which may or may not be consistently  present in each line.
-4.After extracting data completely, sparksession is created to create dataframe on th List of Historical comma seperated data of all stations.
-5.SQL queries are created for the above testable questions by creating temporary view on the dataframe.
+ 1. Code always get's the latest day from source URL's for each station.
+ 2. Data cleaning is needed for variable length headers and foot note being present when station is Closed.
+ 3. Additionally there are special characters like * # $, and missing columnn data indicated by(---) which may or may not be consistently  present in each line.
+ 4. After extracting data completely, sparksession is created to create dataframe on th List of Historical comma seperated data of all stations.
+ 5. SQL queries are created for the above testable questions by creating temporary view on the dataframe. 
