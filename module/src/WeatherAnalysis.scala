@@ -106,7 +106,7 @@ object WeatherAnalysis extends App {
 
   //Rank stations by rainfall and-or sunshine
   spark_session.sql("select station_name ,rain_mm,sun_hours,dense_rank()over(order by rain_mm desc) as rank_rain_fall, " +
-    "rank()over(order by sun_hours desc) as rank_sun_hours " +
+    "dense_rank()over(order by sun_hours desc) as rank_sun_hours " +
     "from (select station_name,sum(rain_mm) as rain_mm,sum(sun_hours)as sun_hours from Data_Source group by station_name)").show(37)
 
   //Worst rainfall and best sunshine for each station with year
