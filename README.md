@@ -9,13 +9,13 @@ https://www.metoffice.gov.uk/pub/data/weather/uk/climate/stationdata/aberporthda
 
 Columnn MetaData:
 ================
-yyyy 			    -	  Four Digit Year
-mm 			      -   Two Digit Month   
-tmax (degC) 	-  	Mean daily maximum temperature 
-tmin (degC) 	-  	Mean daily minimum temperature    
-af days 		  -   Days of air frost (af)
-rain (mm) 	  -   Total rainfall (rain)
-sun hours 	  -   Total sunshine duration
+ 1. yyyy 		-	Four Digit Year
+ 2. mm 			-   Two Digit Month   
+ 3. tmax (degC) -  	Mean daily maximum temperature 
+ 4. tmin (degC) -  	Mean daily minimum temperature    
+ 5. af days 	-   Days of air frost (af)
+ 6. rain (mm) 	-   Total rainfall (rain)
+ 7. sun hours 	-   Total sunshine duration
 
 Some Testable Questions
 ========================
